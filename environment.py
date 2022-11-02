@@ -13,7 +13,6 @@ def graph_setup():
     for i in range(1,51):
         nodes.append(i)
 
-    edge_count = 0
     while len(nodes) != 0:
         first_node = random.choice(nodes)
         nodes_to_choose = []
@@ -39,14 +38,14 @@ def graph_setup():
             G.add_edge(first_node,second_node)
             nodes.remove(first_node)
             nodes.remove(second_node)
-            edge_count = edge_count + 1
-    return edge_count,G
+    return G
 
 if __name__ == "__main__":
-    for _ in range(0,100):
+    # for _ in range(0,100):
         edge_count,G = graph_setup()
+        # print(type(nodes))
         # print(edge_count)
-        print(G.number_of_edges())
+        # print(G.number_of_edges())
         # for n in G:
         #     print(n,n.degree())
         # print(edge_count)
