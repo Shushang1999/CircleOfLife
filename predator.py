@@ -30,6 +30,7 @@ def move_predator(graph,predator_loc,agent_loc):
 if __name__ == "__main__":
     graph = environment.graph_setup()
     predator_loc = spawn_predator()
+    predator_loc = 35
     while predator_loc != 20:
         print(predator_loc)
         predator_loc = move_predator(graph,predator_loc,agent_loc=20)

@@ -42,7 +42,8 @@ def graph_setup():
 
 if __name__ == "__main__":
     # for _ in range(0,100):
-        edge_count,G = graph_setup()
+        G = graph_setup()
+        print(G.number_of_edges())
         # print(type(nodes))
         # print(edge_count)
         # print(G.number_of_edges())
