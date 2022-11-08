@@ -27,7 +27,7 @@ def move_predator(graph,predator_loc,agent_loc):
                     nodes_with_min_dist.append(int(key))
             return(random.choice(nodes_with_min_dist))
     else:
-        possible_moves = [predator_loc]
+        possible_moves = []
         for neighbors in graph.neighbors(predator_loc):
             possible_moves.append(neighbors)
         return(random.choice(possible_moves))
