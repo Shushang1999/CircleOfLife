@@ -14,7 +14,7 @@ def agent4(graph):
     while agent_location == prey_location or agent_location == predator_location:
         agent_location = random.choice(range(1,50))
     steps = 0
-    prey_prob = beliefSystem.initialisation(graph,agent_location)
+    prey_prob = beliefSystem.prey_initialisation(graph,agent_location)
     while steps <= 101:
         print("Prey" , prey_location)
         print("Predator", predator_location)
