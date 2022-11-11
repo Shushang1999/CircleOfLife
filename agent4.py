@@ -6,6 +6,7 @@ import random
 import networkx as nx
 import matplotlib.pyplot as plt
 import beliefSystem
+import overlap
 
 def agent4(graph):
     prey_location = prey.spawn_prey()
@@ -15,6 +16,7 @@ def agent4(graph):
         agent_location = random.choice(range(1,50))
     steps = 0
     prey_prob = beliefSystem.prey_initialisation(graph,agent_location)
+    overlap_edge = set()
     while steps <= 101:
         print("Prey" , prey_location)
         print("Predator", predator_location)
@@ -46,81 +48,62 @@ def agent4(graph):
                 max_index.append(i)
         # print("max Prob",max_prob)
         prey_max_prob_index = random.choice(max_index)
-        # print("max Prob index to move agent",prey_max_prob_index)
+        curr_distance_agent_prey = len(find_path.bfs(graph,agent_location,prey_max_prob_index))
         curr_distance_agent_predator = len(find_path.bfs(graph,agent_location,predator_location))
-        prey_neighbors_agent_distance = {}
-        for neighbor in graph.neighbors(prey_max_prob_index):
-            prey_neighbors_agent_distance[neighbor] = {"dist":len(find_path.bfs(graph,agent_location,neighbor))}
-        prey_neighbors_agent_distance[prey_max_prob_index] = {"dist": len(find_path.bfs(graph,agent_location,prey_max_prob_index))}
-        agent_prey_shortcut = False
-        for n in prey_neighbors_agent_distance:
-            if prey_neighbors_agent_distance[n]["dist"] < 10:
-                agent_prey_shortcut = True
-        if agent_prey_shortcut and curr_distance_agent_predator > 5:
-            temp_dist = 100
-            for n in prey_neighbors_agent_distance:
-                if prey_neighbors_agent_distance[n]["dist"] < temp_dist:
-                    temp_dist = prey_neighbors_agent_distance[n]["dist"]
-                    temp_node = n
-            agent_location = temp_node
-            if agent_location == prey_location and agent_location == predator_location:
-                return("Failed")
-            elif agent_location == prey_location:
-                return("Success")
-            elif agent_location == predator_location:
-                return("Failed")
-        else:
-            curr_distance_agent_prey = len(find_path.bfs(graph,agent_location,prey_max_prob_index))
-            curr_distance_agent_predator = len(find_path.bfs(graph,agent_location,predator_location))
-            agent_neighbor_dist = {}
-            for neighbor in graph.neighbors(agent_location):
-                dist = len(find_path.bfs(graph,neighbor,prey_max_prob_index))
-                agent_neighbor_dist[neighbor] = {"Prey_dist":dist}
-                dist = len(find_path.bfs(graph,neighbor,predator_location))
-                agent_neighbor_dist[neighbor].update({"Predator_dist":dist})
-            temp_node = 100
+        if curr_distance_agent_predator == 2:
+            overlap_edge = overlap.overlap_edge(graph)
+        agent_neighbor_dist = {}
+        for neighbor in graph.neighbors(agent_location):
+            dist = len(find_path.bfs(graph,neighbor,prey_max_prob_index))
+            agent_neighbor_dist[neighbor] = {"Prey_dist":dist}
+            dist = len(find_path.bfs(graph,neighbor,predator_location))
+            agent_neighbor_dist[neighbor].update({"Predator_dist":dist})
+        temp_node = 100
+        for n in agent_neighbor_dist:
+            if agent_neighbor_dist[n]["Prey_dist"] < curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator and n not in overlap_edge:
+                temp_node = n
+                break
+        if temp_node == 100:
             for n in agent_neighbor_dist:
-                if agent_neighbor_dist[n]["Prey_dist"] < curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator:
+                if agent_neighbor_dist[n]["Prey_dist"] < curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator and n not in overlap_edge:
                     temp_node = n
                     break
-            if temp_node == 100:
-                for n in agent_neighbor_dist:
-                    if agent_neighbor_dist[n]["Prey_dist"] < curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator:
-                        temp_node = n
-                        break
-            if temp_node == 100:
-                for n in agent_neighbor_dist:
-                    if agent_neighbor_dist[n]["Prey_dist"] <= curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator:
-                        temp_node = n
-                        break
-            if temp_node == 100:
-                for n in agent_neighbor_dist:
-                    if agent_neighbor_dist[n]["Prey_dist"] <= curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator:
-                        temp_node = n
-                        break
-            if temp_node == 100:
-                for n in agent_neighbor_dist:
-                    if agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator:
-                        temp_node = n
-                        break 
-            if temp_node == 100:
-                for n in agent_neighbor_dist:
-                    if agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator:
-                        temp_node = n
-                        break 
-            if temp_node == 100:
-                possible_moves = []
+        if temp_node == 100:
+            for n in agent_neighbor_dist:
+                if agent_neighbor_dist[n]["Prey_dist"] <= curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator and n not in overlap_edge:
+                    temp_node = n
+                    break
+        if temp_node == 100:
+            for n in agent_neighbor_dist:
+                if agent_neighbor_dist[n]["Prey_dist"] <= curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator and n not in overlap_edge:
+                    temp_node = n
+                    break
+        if temp_node == 100:
+            for n in agent_neighbor_dist:
+                if agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator and n not in overlap_edge:
+                    temp_node = n
+                    break 
+        if temp_node == 100:
+            for n in agent_neighbor_dist:
+                if agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator and n not in overlap_edge:
+                    temp_node = n
+                    break 
+        if temp_node == 100:
+            possible_moves = []
+            for neighbors in graph.neighbors(agent_location):
+                if n not in overlap_edge:
+                    possible_moves.append(neighbors)
+            if len(possible_moves) == 0:
                 for neighbors in graph.neighbors(agent_location):
                     possible_moves.append(neighbors)
-                temp_node = random.choice(possible_moves)
-                # temp_node = agent_location
-            agent_location = temp_node
-            if agent_location == prey_location and agent_location == predator_location:
-                return("Failed")
-            elif agent_location == prey_location:
-                return("Success")
-            elif agent_location == predator_location:
-                return("Failed")
+            temp_node = random.choice(possible_moves)
+        agent_location = temp_node
+        if agent_location == prey_location and agent_location == predator_location:
+            return("Failed")
+        elif agent_location == prey_location:
+            return("Success")
+        elif agent_location == predator_location:
+            return("Failed")
         prey_prob = beliefSystem.preyNotFound(graph,prey_prob,agent_location)
         # print("Prey prob after agent move",prey_prob)
         # print("Sum =" ,sum(prey_prob[1:]))

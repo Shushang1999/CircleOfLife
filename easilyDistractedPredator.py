@@ -9,7 +9,7 @@ def spawn_predator():
     return(random.choice(range(1,51)))
 
 def move_predator(graph,predator_loc,agent_loc):
-    if(random.random() >= 0.6):
+    if(random.random() <= 0.6):
         neighbor_dist_to_agent = {}
         for neighbor in graph.neighbors(predator_loc):
             dist = len(find_path.bfs(graph,neighbor,agent_loc))

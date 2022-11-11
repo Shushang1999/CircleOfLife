@@ -6,8 +6,9 @@ import random
 import networkx as nx
 import matplotlib.pyplot as plt
 import beliefSystem
+import overlap
 
-def agent5(graph):
+def agent6(graph):
     prey_location = prey.spawn_prey()
     predator_location = easilyDistractedPredator.spawn_predator()
     agent_location = random.choice(range(1,50))
@@ -16,6 +17,7 @@ def agent5(graph):
     steps = 0
     exact_pred_location_found = 0
     pred_prob = beliefSystem.pred_initialisation(graph,predator_location)
+    overlap_edge = set()
     while steps <= 100:
         print("Prey" , prey_location)
         print("Predator", predator_location)
@@ -67,6 +69,8 @@ def agent5(graph):
             exact_pred_location_found = exact_pred_location_found + 1
         curr_distance_agent_prey = len(find_path.bfs(graph,agent_location,prey_location))
         curr_distance_agent_predator = len(find_path.bfs(graph,agent_location,pred_max_prob_index))
+        if curr_distance_agent_predator <= 5:
+            overlap_edge = overlap.overlap_edge(graph)
         agent_neighbor_dist = {}
         for neighbor in graph.neighbors(agent_location):
             dist = len(find_path.bfs(graph,neighbor,prey_location))
@@ -76,36 +80,43 @@ def agent5(graph):
         # print(agent_neighbor_dist)
         temp_node = 100
         for n in agent_neighbor_dist:
-            if agent_neighbor_dist[n]["Prey_dist"] < curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator:
+            if agent_neighbor_dist[n]["Prey_dist"] < curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator and n not in overlap_edge:
                 temp_node = n
                 break
         if temp_node == 100:
             for n in agent_neighbor_dist:
-                if agent_neighbor_dist[n]["Prey_dist"] < curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator:
+                if agent_neighbor_dist[n]["Prey_dist"] < curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator and n not in overlap_edge:
                     temp_node = n
                     break
         if temp_node == 100:
             for n in agent_neighbor_dist:
-                if agent_neighbor_dist[n]["Prey_dist"] <= curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator:
+                if agent_neighbor_dist[n]["Prey_dist"] <= curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator and n not in overlap_edge:
                     temp_node = n
                     break
         if temp_node == 100:
             for n in agent_neighbor_dist:
-                if agent_neighbor_dist[n]["Prey_dist"] <= curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator:
+                if agent_neighbor_dist[n]["Prey_dist"] <= curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator and n not in overlap_edge:
                     temp_node = n
                     break
         if temp_node == 100:
             for n in agent_neighbor_dist:
-                if agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator:
+                if agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator and n not in overlap_edge:
                     temp_node = n
                     break 
         if temp_node == 100:
             for n in agent_neighbor_dist:
-                if agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator:
+                if agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator and n not in overlap_edge:
                     temp_node = n
                     break 
         if temp_node == 100:
-            temp_node = agent_location
+            possible_moves = []
+            for neighbors in graph.neighbors(agent_location):
+                if n not in overlap_edge:
+                    possible_moves.append(neighbors)
+            if len(possible_moves) == 0:
+                for neighbors in graph.neighbors(agent_location):
+                    possible_moves.append(neighbors)
+            temp_node = random.choice(possible_moves)
         agent_location = temp_node
         if agent_location == prey_location and agent_location == predator_location:
             return("Failed",steps,exact_pred_location_found)
@@ -159,11 +170,11 @@ if __name__ == "__main__":
         steps_size = []
         pred_found = []
         for _ in range(0,100):
-            temp_out = agent5(graph) 
+            temp_out = agent6(graph) 
             output.append(temp_out[0])
             steps_size.append(temp_out[1])
             pred_found.append(temp_out[2])
-        with open("./Results/output_agent5.txt","a") as o:
+        with open("./Results/output_agent6.txt","a") as o:
             o.write("Trial No. = {}\n".format(i))
             o.write("{}\n".format(output))
             o.write("Total Number of Steps\n")
@@ -180,7 +191,7 @@ if __name__ == "__main__":
             o.write("Avg Pred Found = {}\n".format(avg_pred_found))
             total_avg_steps_size = total_avg_steps_size + avg_steps_size
             total_avg_pred_found = total_avg_pred_found + avg_pred_found
-    with open("./Results/output_agent5.txt","a") as o:
+    with open("./Results/output_agent6.txt","a") as o:
         o.write("\n")
         o.write("Average Results\n")
         o.write("Average Success Rates = {}\n".format(success_rates // 30))

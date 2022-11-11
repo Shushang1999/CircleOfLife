@@ -100,6 +100,32 @@ def predTransitionProb(graph,prob_array,agent_loc):
 
     return(prob_new)
 
+def predNotFoundFaultySurvey(graph,prob_array,surveyed_node):
+    prob_new = [None]
+    prob_not_surveyedNode = (1 - prob_array[surveyed_node]) + (prob_array[surveyed_node] * 0.1)
+    for node in graph.nodes():
+        if node == surveyed_node:
+            temp_prob = ((prob_array[surveyed_node] * 0.1)/prob_not_surveyedNode)
+            prob_new.append(temp_prob)
+        else:
+            temp_prob = (prob_array[node]/ prob_not_surveyedNode)
+            prob_new.append(temp_prob)
+
+    return(prob_new)
+
+def preyNotFoundFaultySurvey(graph,prob_array,surveyed_node):
+    prob_new = [None]
+    prob_not_surveyedNode = (1 - prob_array[surveyed_node]) + (prob_array[surveyed_node] * 0.1)
+    for node in graph.nodes():
+        if node == surveyed_node:
+            temp_prob = ((prob_array[surveyed_node] * 0.1)/prob_not_surveyedNode)
+            prob_new.append(temp_prob)
+        else:
+            temp_prob = (prob_array[node]/ prob_not_surveyedNode)
+            prob_new.append(temp_prob)
+
+    return(prob_new)
+
         
 
 if __name__ == "__main__":
@@ -108,7 +134,7 @@ if __name__ == "__main__":
     print(prob_array)
     for _ in range(0,100):
         prob_array = predTransitionProb(graph,prob_array,8)
-        prob_array = predNotFound(graph,prob_array,48)
+        prob_array = preyNotFoundFaultySurvey(graph,prob_array,48)
     print(prob_array)
     print(sum(prob_array[1:]))
     # sum = 0
