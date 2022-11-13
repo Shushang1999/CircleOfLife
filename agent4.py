@@ -17,7 +17,7 @@ def agent4(graph):
     steps = 0
     prey_prob = beliefSystem.prey_initialisation(graph,agent_location)
     overlap_edge = set()
-    while steps <= 101:
+    while steps <= 1000:
         print("Prey" , prey_location)
         print("Predator", predator_location)
         print("Agent",agent_location)
@@ -59,44 +59,69 @@ def agent4(graph):
             dist = len(find_path.bfs(graph,neighbor,predator_location))
             agent_neighbor_dist[neighbor].update({"Predator_dist":dist})
         temp_node = 100
-        for n in agent_neighbor_dist:
-            if agent_neighbor_dist[n]["Prey_dist"] < curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator and n not in overlap_edge:
-                temp_node = n
-                break
-        if temp_node == 100:
+        if len(overlap_edge) == 0:
             for n in agent_neighbor_dist:
-                if agent_neighbor_dist[n]["Prey_dist"] < curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator and n not in overlap_edge:
+                if agent_neighbor_dist[n]["Prey_dist"] < curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator:
                     temp_node = n
                     break
-        if temp_node == 100:
-            for n in agent_neighbor_dist:
-                if agent_neighbor_dist[n]["Prey_dist"] <= curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator and n not in overlap_edge:
-                    temp_node = n
-                    break
-        if temp_node == 100:
-            for n in agent_neighbor_dist:
-                if agent_neighbor_dist[n]["Prey_dist"] <= curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator and n not in overlap_edge:
-                    temp_node = n
-                    break
-        if temp_node == 100:
-            for n in agent_neighbor_dist:
-                if agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator and n not in overlap_edge:
-                    temp_node = n
-                    break 
-        if temp_node == 100:
-            for n in agent_neighbor_dist:
-                if agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator and n not in overlap_edge:
-                    temp_node = n
-                    break 
-        if temp_node == 100:
-            possible_moves = []
-            for neighbors in graph.neighbors(agent_location):
-                if n not in overlap_edge:
-                    possible_moves.append(neighbors)
-            if len(possible_moves) == 0:
+            if temp_node == 100:
+                for n in agent_neighbor_dist:
+                    if agent_neighbor_dist[n]["Prey_dist"] < curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator:
+                        temp_node = n
+                        break
+            if temp_node == 100:
+                for n in agent_neighbor_dist:
+                    if agent_neighbor_dist[n]["Prey_dist"] <= curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator:
+                        temp_node = n
+                        break
+            if temp_node == 100:
+                for n in agent_neighbor_dist:
+                    if agent_neighbor_dist[n]["Prey_dist"] <= curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator:
+                        temp_node = n
+                        break
+            if temp_node == 100:
+                for n in agent_neighbor_dist:
+                    if agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator:
+                        temp_node = n
+                        break 
+            if temp_node == 100:
+                for n in agent_neighbor_dist:
+                    if agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator:
+                        temp_node = n
+                        break 
+            if temp_node == 100:
+                possible_moves = []
                 for neighbors in graph.neighbors(agent_location):
-                    possible_moves.append(neighbors)
-            temp_node = random.choice(possible_moves)
+                    if n not in overlap_edge:
+                        possible_moves.append(neighbors)
+                if len(possible_moves) == 0:
+                    for neighbors in graph.neighbors(agent_location):
+                        possible_moves.append(neighbors)
+                temp_node = random.choice(possible_moves)
+        else:
+            for n in agent_neighbor_dist:
+                if agent_neighbor_dist[n]["Prey_dist"] < curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator and n not in overlap_edge:
+                    temp_node = n
+                    break
+            if temp_node == 100:
+                for n in agent_neighbor_dist:
+                    if agent_neighbor_dist[n]["Prey_dist"] <= curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator and n not in overlap_edge:
+                        temp_node = n
+                        break
+            if temp_node == 100:
+                for n in agent_neighbor_dist:
+                    if agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator and n not in overlap_edge:
+                        temp_node = n
+                        break
+            if temp_node == 100:
+                possible_moves = []
+                for neighbors in graph.neighbors(agent_location):
+                    if n not in overlap_edge:
+                        possible_moves.append(neighbors)
+                if len(possible_moves) == 0:
+                    for neighbors in graph.neighbors(agent_location):
+                        possible_moves.append(neighbors)
+                temp_node = random.choice(possible_moves) 
         agent_location = temp_node
         if agent_location == prey_location and agent_location == predator_location:
             return("Failed")

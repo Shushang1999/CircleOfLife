@@ -63,36 +63,36 @@ def agent1(graph):
             temp_node = agent_location
         agent_location = temp_node
         if agent_location == prey_location and agent_location == predator_location:
-            return("Failed")
+            return("Failed",steps)
         elif agent_location == prey_location:
             # print("Prey" , prey_location)
             # print("Predator", predator_location)
             # print("Agent",agent_location)
-            return("Success")
+            return("Success",steps)
         elif agent_location == predator_location:
-            return("Failed")
+            return("Failed",steps)
         prey_location = prey.move_prey(graph,prey_location)
         if agent_location == prey_location and agent_location == predator_location:
-            return("Failed")
+            return("Failed",steps)
         elif agent_location == prey_location:
             # print("Prey" , prey_location)
             # print("Predator", predator_location)
             # print("Agent",agent_location)
-            return("Success")
+            return("Success",steps)
         elif agent_location == predator_location:
-            return("Failed")
+            return("Failed",steps)
         predator_location = predator.move_predator(graph,predator_location,agent_location)
         if agent_location == prey_location and agent_location == predator_location:
-            return("Failed")
+            return("Failed",steps)
         elif agent_location == prey_location:
             # print("Prey" , prey_location)
             # print("Predator", predator_location)
             # print("Agent",agent_location)
-            return("Success")
+            return("Success",steps)
         elif agent_location == predator_location:
-            return("Failed")
+            return("Failed",steps)
     
-    return("Hanged")
+    return("Hanged",steps)
     
     
     # nx.draw(graph,with_labels = True,pos = nx.circular_layout(graph))
@@ -101,18 +101,28 @@ def agent1(graph):
 if __name__ == "__main__":
     success_rates = 0
     hanged = 0 
+    total_avg_steps_size = 0 
     for i in range(1,31):
         graph = environment.graph_setup()
         output = []
+        steps_size = []
         for _ in range(0,100):
-            output.append(agent1(graph))
+            temp_out = agent1(graph)  
+            output.append(temp_out[0])
+            steps_size.append(temp_out[1])
         with open("./Results/output_agent1.txt","a") as o:
             o.write("Trial No. = {}\n".format(i))
             o.write("{}\n".format(output))
+            o.write("Total Number of Steps\n")
+            o.write("{}\n".format(steps_size))
             o.write("Success Rate = {}\n".format(output.count("Success")))
             o.write("Hanged Rate = {}\n".format(output.count("Hanged")))
             success_rates = success_rates + output.count("Success")
             hanged = hanged + output.count("Hanged")
+            avg_steps_size = sum(steps_size) // 100
     with open("./Results/output_agent1.txt","a") as o:
+        o.write("\n")
+        o.write("Average Results\n")
         o.write("Average Success Rates = {}\n".format(success_rates // 30))
         o.write("Average Hanged Rates = {}\n".format(hanged // 30))
+        o.write("Average Step Size = {}\n".format(total_avg_steps_size // 30))
