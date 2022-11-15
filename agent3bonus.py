@@ -1,4 +1,4 @@
-import environment
+import environment 
 import find_path
 import prey
 import predator
@@ -7,7 +7,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import beliefSystem
 
-def agent3(graph):
+def agent3bonus(graph):
     prey_location = prey.spawn_prey()
     predator_location = predator.spawn_predator()
     agent_location = random.choice(range(1,50))
@@ -16,6 +16,7 @@ def agent3(graph):
     steps = 0
     exact_prey_location_found = 0
     prey_prob = beliefSystem.prey_initialisation(graph,agent_location)
+    survey = 1
     while steps <= 100:
         print("Prey" , prey_location)
         print("Predator", predator_location)
@@ -23,76 +24,82 @@ def agent3(graph):
         steps = steps + 1
         print("Loop Start prob",prey_prob)
         print("Sum =" ,sum(prey_prob[1:]))
+        curr_distance_agent_predator = len(find_path.bfs(graph,agent_location,predator_location))
+        if curr_distance_agent_predator == 2:
+            survey = 0
         max_prob = max(prey_prob[1:])
         # print("max Prob",max_prob)
-        if max_prob != 1:
-            max_index = []
-            for i in range(0,51):
-                if prey_prob[i] == max_prob:
-                    max_index.append(i)
-            index_to_survey = random.choice(max_index)
-            if index_to_survey == prey_location:
-                exact_prey_location_found = exact_prey_location_found + 1
-                prey_prob = beliefSystem.preyFound(prey_prob,prey_location)
-                print("Prey prob after survey prey found",prey_location,prey_prob)
-                print("Sum =" ,sum(prey_prob[1:]))
-            else:
-                prey_prob = beliefSystem.preyNotFound(graph,prey_prob,index_to_survey)
-                print("Prey prob after survey prey not found",index_to_survey,prey_prob)
-                print("Sum =" ,sum(prey_prob[1:]))
-            max_prob = max(prey_prob[1:])
-            max_index = []
-            for i in range(0,51):
-                if prey_prob[i] == max_prob:
-                    max_index.append(i)
-            # print("max Prob",max_prob)
-            prey_max_prob_index = random.choice(max_index)
+        if survey:
+            survey = 0
+            if max_prob != 1:
+                max_index = []
+                for i in range(0,51):
+                    if prey_prob[i] == max_prob:
+                        max_index.append(i)
+                index_to_survey = random.choice(max_index)
+                if index_to_survey == prey_location:
+                    exact_prey_location_found = exact_prey_location_found + 1
+                    prey_prob = beliefSystem.preyFound(prey_prob,prey_location)
+                    print("Prey prob after survey prey found",prey_location,prey_prob)
+                    print("Sum =" ,sum(prey_prob[1:]))
+                else:
+                    prey_prob = beliefSystem.preyNotFound(graph,prey_prob,index_to_survey)
+                    print("Prey prob after survey prey not found",index_to_survey,prey_prob)
+                    print("Sum =" ,sum(prey_prob[1:]))
         else:
-            prey_max_prob_index = prey_prob.index(1)
-            exact_prey_location_found = exact_prey_location_found + 1
-        # print("max Prob index to move agent",prey_max_prob_index)
-        curr_distance_agent_prey = len(find_path.bfs(graph,agent_location,prey_max_prob_index))
-        curr_distance_agent_predator = len(find_path.bfs(graph,agent_location,predator_location))
-        agent_neighbor_dist = {}
-        for neighbor in graph.neighbors(agent_location):
-            dist = len(find_path.bfs(graph,neighbor,prey_max_prob_index))
-            agent_neighbor_dist[neighbor] = {"Prey_dist":dist}
-            dist = len(find_path.bfs(graph,neighbor,predator_location))
-            agent_neighbor_dist[neighbor].update({"Predator_dist":dist})
-        # print(agent_neighbor_dist)
-        temp_node = 100
-        for n in agent_neighbor_dist:
-            if agent_neighbor_dist[n]["Prey_dist"] < curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator:
-                temp_node = n
-                break
-        if temp_node == 100:
+            if max_prob != 1:
+                max_prob = max(prey_prob[1:])
+                max_index = []
+                for i in range(0,51):
+                    if prey_prob[i] == max_prob:
+                        max_index.append(i)
+                # print("max Prob",max_prob)
+                prey_max_prob_index = random.choice(max_index)
+            else:
+                prey_max_prob_index = prey_prob.index(1)
+                exact_prey_location_found = exact_prey_location_found + 1
+            survey = 1
+            curr_distance_agent_prey = len(find_path.bfs(graph,agent_location,prey_max_prob_index))
+            agent_neighbor_dist = {}
+            for neighbor in graph.neighbors(agent_location):
+                dist = len(find_path.bfs(graph,neighbor,prey_max_prob_index))
+                agent_neighbor_dist[neighbor] = {"Prey_dist":dist}
+                dist = len(find_path.bfs(graph,neighbor,predator_location))
+                agent_neighbor_dist[neighbor].update({"Predator_dist":dist})
+            # print(agent_neighbor_dist)
+            temp_node = 100
             for n in agent_neighbor_dist:
-                if agent_neighbor_dist[n]["Prey_dist"] < curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator:
+                if agent_neighbor_dist[n]["Prey_dist"] < curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator:
                     temp_node = n
                     break
-        if temp_node == 100:
-            for n in agent_neighbor_dist:
-                if agent_neighbor_dist[n]["Prey_dist"] <= curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator:
-                    temp_node = n
-                    break
-        if temp_node == 100:
-            for n in agent_neighbor_dist:
-                if agent_neighbor_dist[n]["Prey_dist"] <= curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator:
-                    temp_node = n
-                    break
-        if temp_node == 100:
-            for n in agent_neighbor_dist:
-                if agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator:
-                    temp_node = n
-                    break 
-        if temp_node == 100:
-            for n in agent_neighbor_dist:
-                if agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator:
-                    temp_node = n
-                    break 
-        if temp_node == 100:
-            temp_node = agent_location
-        agent_location = temp_node
+            if temp_node == 100:
+                for n in agent_neighbor_dist:
+                    if agent_neighbor_dist[n]["Prey_dist"] < curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator:
+                        temp_node = n
+                        break
+            if temp_node == 100:
+                for n in agent_neighbor_dist:
+                    if agent_neighbor_dist[n]["Prey_dist"] <= curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator:
+                        temp_node = n
+                        break
+            if temp_node == 100:
+                for n in agent_neighbor_dist:
+                    if agent_neighbor_dist[n]["Prey_dist"] <= curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator:
+                        temp_node = n
+                        break
+            if temp_node == 100:
+                for n in agent_neighbor_dist:
+                    if agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator:
+                        temp_node = n
+                        break 
+            if temp_node == 100:
+                for n in agent_neighbor_dist:
+                    if agent_neighbor_dist[n]["Predator_dist"] >= curr_distance_agent_predator:
+                        temp_node = n
+                        break 
+            if temp_node == 100:
+                temp_node = agent_location
+            agent_location = temp_node
         if agent_location == prey_location and agent_location == predator_location:
             return("Failed",steps,exact_prey_location_found)
         elif agent_location == prey_location:
@@ -143,14 +150,13 @@ if __name__ == "__main__":
         steps_size = []
         prey_found = []
         for _ in range(0,100):
-            temp_out = agent3(graph) 
+            temp_out = agent3bonus(graph) 
             output.append(temp_out[0])
             steps_size.append(temp_out[1])
             prey_found.append(temp_out[2])
-        with open("./Results/output_agent3.txt","a") as o:
+        with open("../Results/Bonus/output_agent3_bonus.txt","a") as o:
             o.write("Trial No. = {}\n".format(i))
             o.write("{}\n".format(output))
-            o.write("Total Number of Steps\n")
             o.write("{}\n".format(steps_size))
             o.write("Total number of times prey was found\n")
             o.write("{}\n".format(prey_found))
@@ -164,7 +170,7 @@ if __name__ == "__main__":
             o.write("Avg Prey Found = {}\n".format(avg_prey_found))
             total_avg_steps_size = total_avg_steps_size + avg_steps_size
             total_avg_prey_found = total_avg_prey_found + avg_prey_found
-    with open("./Results/output_agent3.txt","a") as o:
+    with open("../Results/Bonus/output_agent3_bonus.txt","a") as o:
         o.write("\n")
         o.write("Average Results\n")
         o.write("Average Success Rates = {}\n".format(success_rates // 30))

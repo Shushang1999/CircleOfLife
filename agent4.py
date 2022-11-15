@@ -17,11 +17,11 @@ def agent4(graph):
     steps = 0
     prey_prob = beliefSystem.prey_initialisation(graph,agent_location)
     overlap_edge = set()
+    exact_prey_location_found = 0
     while steps <= 1000:
         print("Prey" , prey_location)
         print("Predator", predator_location)
         print("Agent",agent_location)
-        exact_prey_location_found = 0
         steps = steps + 1
         # print("Initial prob",prey_prob)
         # print("Sum =" ,sum(prey_prob[1:]))
@@ -124,40 +124,40 @@ def agent4(graph):
                 temp_node = random.choice(possible_moves) 
         agent_location = temp_node
         if agent_location == prey_location and agent_location == predator_location:
-            return("Failed")
+            return("Failed",steps,exact_prey_location_found)
         elif agent_location == prey_location:
-            return("Success")
+            return("Success",steps,exact_prey_location_found)
         elif agent_location == predator_location:
-            return("Failed")
+            return("Failed",steps,exact_prey_location_found)
         prey_prob = beliefSystem.preyNotFound(graph,prey_prob,agent_location)
         # print("Prey prob after agent move",prey_prob)
         # print("Sum =" ,sum(prey_prob[1:]))
         prey_location = prey.move_prey(graph,prey_location)
         if agent_location == prey_location and agent_location == predator_location:
-            return("Failed")
+            return("Failed",steps,exact_prey_location_found)
         elif agent_location == prey_location:
-            return("Success")
+            return("Success",steps,exact_prey_location_found)
         elif agent_location == predator_location:
-            return("Failed")
+            return("Failed",steps,exact_prey_location_found)
         prey_prob = beliefSystem.preyTransitionProb(graph,prey_prob)
         # print("Prey prob after prey move",prey_prob)
         # print("Sum =" ,sum(prey_prob[1:]))
         predator_location = predator.move_predator(graph,predator_location,agent_location)
         if agent_location == prey_location and agent_location == predator_location:
-            return("Failed")
+            return("Failed",steps,exact_prey_location_found)
         elif agent_location == prey_location:
             # print("Prey" , prey_location)
             # print("Predator", predator_location)
             # print("Agent",agent_location)
-            return("Success")
+            return("Success",steps,exact_prey_location_found)
         elif agent_location == predator_location:
-            return("Failed")
+            return("Failed",steps,exact_prey_location_found)
         prey_prob = beliefSystem.preyNotFound(graph,prey_prob,agent_location)
     
     print("Prey prob last",prey_prob)
     print("Sum =" ,sum(prey_prob[1:]))
     
-    return("Hanged")
+    return("Hanged",steps,exact_prey_location_found)
         
 
 if __name__ == "__main__":
@@ -165,18 +165,39 @@ if __name__ == "__main__":
     # agent3(graph)
     success_rates = 0 
     hanged = 0 
+    total_avg_steps_size = 0 
+    total_avg_prey_found = 0
     for i in range(1,31):
         graph = environment.graph_setup()
         output = []
+        steps_size = []
+        prey_found = []
         for _ in range(0,100):
-            output.append(agent4(graph))
+            temp_out = agent4(graph) 
+            output.append(temp_out[0])
+            steps_size.append(temp_out[1])
+            prey_found.append(temp_out[2])
         with open("./Results/output_agent4.txt","a") as o:
             o.write("Trial No. = {}\n".format(i))
             o.write("{}\n".format(output))
+            o.write("Total Number of Steps\n")
+            o.write("{}\n".format(steps_size))
+            o.write("Total number of times prey was found\n")
+            o.write("{}\n".format(prey_found))
             o.write("Success Rate = {}\n".format(output.count("Success")))
             o.write("Hanged Rate = {}\n".format(output.count("Hanged")))
             success_rates = success_rates + output.count("Success")
             hanged = hanged + output.count("Hanged")
+            avg_steps_size = sum(steps_size) // 100
+            avg_prey_found = sum(prey_found) // 100
+            o.write("Average step size = {}\n".format(avg_steps_size))
+            o.write("Avg Prey Found = {}\n".format(avg_prey_found))
+            total_avg_steps_size = total_avg_steps_size + avg_steps_size
+            total_avg_prey_found = total_avg_prey_found + avg_prey_found
     with open("./Results/output_agent4.txt","a") as o:
+        o.write("\n")
+        o.write("Average Results\n")
         o.write("Average Success Rates = {}\n".format(success_rates // 30))
         o.write("Average Hanged Rates = {}\n".format(hanged // 30))
+        o.write("Average Step Size = {}\n".format(total_avg_steps_size / 30))
+        o.write("Average Prey Found = {}\n".format(total_avg_prey_found / 30))

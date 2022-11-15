@@ -20,7 +20,7 @@ def agent8b(graph):
     prey_prob = beliefSystem.prey_initialisation(graph,agent_location)
     pred_prob = beliefSystem.pred_initialisation(graph,predator_location)
     overlap_edge = set()
-    while steps <= 100:
+    while steps <= 1000:
         steps = steps + 1
         max_pred_prob = max(pred_prob[1:])
         max_prey_prob = max(prey_prob[1:])
