@@ -13,7 +13,7 @@ def agent1(graph):
     while agent_location == prey_location or agent_location == predator_location:
         agent_location = random.choice(range(1,50))
     steps = 0
-    while steps <= 100:
+    while steps <= 5000:
         steps = steps + 1
         # print("Prey" , prey_location)
         # print("Predator", predator_location)
@@ -120,7 +120,10 @@ if __name__ == "__main__":
             success_rates = success_rates + output.count("Success")
             hanged = hanged + output.count("Hanged")
             avg_steps_size = sum(steps_size) // 100
+            total_avg_steps_size = total_avg_steps_size + avg_steps_size
     with open("./Results/output_agent1.txt","a") as o:
+        o.write("\n")
+        o.write("Total Success Rates = {}\n".format(success_rates))
         o.write("\n")
         o.write("Average Results\n")
         o.write("Average Success Rates = {}\n".format(success_rates // 30))

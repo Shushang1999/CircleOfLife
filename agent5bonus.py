@@ -18,7 +18,7 @@ def agent5bonus(graph):
     pred_prob = beliefSystem.pred_initialisation(graph,predator_location)
     survey = 1
     predator_nearby = False
-    while steps <= 1000:
+    while steps <= 5000:
         print("Prey" , prey_location)
         print("Predator", predator_location)
         print("Agent",agent_location)
@@ -206,6 +206,8 @@ if __name__ == "__main__":
             total_avg_steps_size = total_avg_steps_size + avg_steps_size
             total_avg_pred_found = total_avg_pred_found + avg_pred_found
     with open("./Results/Bonus/output_agent5_bonus.txt","a") as o:
+        o.write("\n")
+        o.write("Total Success Rates = {}\n".format(success_rates))
         o.write("\n")
         o.write("Average Results\n")
         o.write("Average Success Rates = {}\n".format(success_rates // 30))

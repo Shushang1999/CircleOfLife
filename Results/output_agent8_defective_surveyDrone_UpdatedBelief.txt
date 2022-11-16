@@ -1,397 +1,399 @@
 Trial No. = 1
-['Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Hanged', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success']
+['Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success']
 Total Number of Steps
-[21, 69, 1, 11, 31, 34, 6, 14, 5, 101, 24, 20, 2, 15, 34, 12, 2, 6, 25, 14, 3, 52, 1, 1, 7, 56, 17, 48, 6, 17, 11, 6, 15, 26, 35, 39, 34, 23, 30, 43, 23, 7, 2, 33, 12, 31, 9, 27, 27, 38, 38, 50, 1, 5, 72, 32, 20, 7, 59, 23, 82, 44, 20, 62, 34, 50, 101, 15, 17, 9, 61, 20, 9, 52, 16, 31, 13, 32, 25, 22, 38, 6, 1, 12, 14, 60, 54, 29, 46, 8, 45, 9, 51, 2, 19, 36, 44, 17, 77, 12]
+[32, 23, 2, 79, 78, 41, 64, 3, 41, 27, 45, 3, 23, 3, 2, 19, 34, 4, 5, 41, 16, 22, 12, 26, 5, 26, 23, 28, 66, 5, 6, 25, 35, 5, 64, 33, 25, 23, 35, 54, 19, 3, 27, 28, 7, 37, 48, 24, 13, 15, 21, 23, 13, 2, 30, 25, 63, 19, 17, 11, 29, 32, 37, 42, 2, 15, 29, 14, 27, 59, 12, 12, 10, 26, 17, 131, 16, 6, 19, 37, 4, 16, 16, 79, 43, 26, 35, 81, 24, 72, 17, 29, 1, 44, 17, 103, 60, 17, 38, 22]
 Total number of times prey was found
-[0, 0, 0, 0, 2, 1, 0, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 4, 0, 0, 0, 0, 0, 2, 1, 2, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 3, 0, 0, 0, 0, 0, 2, 0, 6, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 1, 3, 0, 0, 0, 0, 2, 0, 0, 3, 0, 1, 0, 0, 0]
+[0, 1, 0, 2, 1, 1, 1, 0, 2, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 4, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 0, 5, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 1, 1, 0, 0, 0, 0]
 Total number of times predator was found
-[16, 27, 0, 7, 15, 20, 1, 9, 3, 23, 9, 15, 1, 7, 15, 3, 1, 0, 12, 3, 2, 22, 0, 0, 4, 28, 4, 20, 2, 7, 6, 3, 7, 10, 12, 11, 13, 2, 10, 11, 6, 3, 1, 7, 3, 16, 0, 5, 18, 19, 29, 20, 0, 3, 31, 9, 6, 1, 19, 9, 40, 13, 4, 30, 12, 10, 31, 11, 12, 5, 20, 17, 3, 22, 3, 17, 11, 13, 14, 9, 21, 4, 0, 5, 8, 28, 10, 4, 10, 5, 15, 3, 18, 1, 2, 20, 22, 8, 31, 7]
-Success Rate = 79
-Hanged Rate = 1
-Step size = 27
-Avg Prey Found = 0
-Avg Pred Found = 10
-Trial No. = 2
-['Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success']
-Total Number of Steps
-[26, 4, 48, 5, 6, 18, 31, 40, 21, 37, 24, 32, 25, 27, 22, 18, 45, 38, 19, 17, 14, 14, 3, 2, 21, 33, 14, 27, 70, 2, 14, 15, 16, 79, 8, 47, 11, 49, 27, 20, 43, 17, 18, 27, 13, 38, 38, 36, 15, 23, 40, 33, 34, 19, 13, 20, 22, 4, 29, 26, 90, 27, 22, 32, 31, 5, 38, 28, 7, 4, 50, 37, 25, 4, 32, 30, 42, 29, 4, 34, 23, 18, 45, 17, 9, 7, 9, 48, 1, 26, 8, 3, 2, 34, 15, 43, 34, 4, 16, 2]
-Total number of times prey was found
-[0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 2, 0, 1, 0, 0, 2, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
-Total number of times predator was found
-[11, 0, 15, 3, 2, 10, 20, 22, 7, 20, 8, 14, 5, 13, 11, 5, 6, 19, 10, 0, 7, 5, 1, 0, 11, 19, 11, 8, 29, 0, 8, 1, 3, 29, 2, 27, 4, 26, 19, 12, 21, 0, 1, 15, 2, 25, 15, 12, 1, 7, 2, 14, 14, 8, 6, 10, 10, 0, 16, 7, 28, 18, 11, 21, 13, 0, 14, 12, 5, 2, 25, 21, 7, 1, 7, 8, 27, 10, 3, 20, 3, 9, 26, 9, 4, 2, 8, 14, 0, 7, 4, 1, 0, 18, 6, 20, 19, 1, 8, 1]
-Success Rate = 68
+[12, 6, 0, 28, 31, 28, 36, 2, 17, 16, 17, 1, 11, 0, 0, 0, 19, 1, 3, 21, 2, 5, 9, 14, 3, 3, 9, 5, 28, 2, 0, 6, 0, 0, 36, 20, 5, 5, 19, 16, 11, 1, 16, 11, 1, 18, 19, 13, 5, 5, 12, 7, 9, 1, 19, 9, 31, 8, 0, 0, 21, 15, 4, 19, 1, 11, 7, 9, 1, 24, 5, 4, 8, 18, 12, 49, 10, 2, 5, 14, 1, 8, 10, 32, 8, 5, 3, 44, 1, 26, 8, 7, 0, 14, 8, 61, 28, 8, 14, 4]
+Success Rate = 73
 Hanged Rate = 0
-Step size = 24
-Avg Prey Found = 0
-Avg Pred Found = 10
-Trial No. = 3
-['Success', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success']
-Total Number of Steps
-[12, 54, 8, 35, 28, 6, 2, 15, 75, 54, 22, 4, 30, 17, 4, 12, 32, 1, 10, 52, 5, 6, 3, 52, 57, 7, 10, 28, 14, 72, 34, 53, 1, 13, 20, 22, 22, 6, 19, 27, 4, 79, 72, 5, 23, 21, 3, 14, 10, 61, 36, 87, 50, 57, 16, 34, 10, 36, 11, 20, 2, 90, 48, 37, 38, 9, 16, 50, 19, 76, 25, 4, 2, 18, 15, 30, 19, 10, 3, 5, 7, 67, 31, 1, 5, 13, 39, 4, 5, 34, 35, 29, 25, 8, 52, 24, 25, 4, 25, 18]
-Total number of times prey was found
-[0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 0, 0, 0, 0, 0, 0, 2, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 2, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 2, 0, 0, 0, 1, 1, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0]
-Total number of times predator was found
-[7, 15, 4, 7, 4, 4, 0, 9, 33, 22, 14, 1, 18, 2, 2, 5, 14, 0, 5, 20, 2, 0, 1, 28, 26, 3, 0, 9, 8, 41, 11, 33, 0, 9, 4, 9, 9, 1, 0, 14, 0, 37, 39, 1, 9, 12, 2, 6, 6, 18, 12, 25, 15, 23, 2, 12, 1, 15, 4, 5, 1, 45, 18, 20, 11, 5, 5, 17, 12, 40, 1, 3, 1, 2, 10, 4, 5, 3, 1, 4, 1, 32, 16, 0, 1, 3, 10, 0, 1, 9, 16, 0, 10, 2, 14, 1, 15, 1, 2, 8]
-Success Rate = 64
-Hanged Rate = 0
-Step size = 25
-Avg Prey Found = 0
-Avg Pred Found = 9
-Trial No. = 4
-['Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Hanged', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed']
-Total Number of Steps
-[31, 85, 25, 45, 5, 10, 12, 20, 1, 31, 27, 2, 29, 2, 16, 45, 48, 18, 26, 8, 23, 2, 2, 42, 41, 16, 36, 51, 6, 14, 20, 35, 63, 5, 45, 12, 10, 52, 32, 32, 18, 45, 6, 11, 42, 40, 48, 25, 30, 25, 9, 23, 62, 2, 13, 25, 3, 18, 16, 9, 5, 25, 8, 19, 5, 6, 32, 3, 47, 32, 6, 12, 1, 9, 1, 40, 3, 77, 28, 3, 14, 9, 3, 35, 30, 101, 17, 19, 5, 10, 9, 1, 39, 52, 22, 12, 22, 13, 28, 79]
-Total number of times prey was found
-[0, 2, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 3, 0, 1, 3, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
-Total number of times predator was found
-[7, 42, 7, 18, 0, 2, 6, 2, 0, 20, 2, 0, 4, 1, 10, 17, 19, 9, 13, 1, 14, 0, 0, 12, 5, 2, 16, 20, 4, 7, 0, 17, 19, 2, 22, 3, 3, 24, 12, 2, 3, 25, 2, 8, 4, 7, 8, 7, 14, 8, 6, 5, 16, 0, 5, 15, 1, 5, 6, 7, 1, 11, 4, 12, 3, 4, 14, 2, 28, 11, 1, 7, 0, 3, 0, 18, 1, 16, 12, 2, 12, 6, 1, 17, 13, 34, 10, 2, 1, 7, 3, 0, 18, 19, 12, 5, 12, 3, 5, 33]
-Success Rate = 78
-Hanged Rate = 1
-Step size = 23
-Avg Prey Found = 0
-Avg Pred Found = 8
-Trial No. = 5
-['Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Hanged', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Success']
-Total Number of Steps
-[46, 9, 4, 66, 8, 49, 51, 21, 58, 36, 44, 46, 6, 11, 12, 34, 12, 13, 3, 30, 18, 2, 46, 27, 29, 16, 34, 3, 2, 63, 101, 21, 2, 5, 21, 35, 46, 15, 28, 18, 9, 28, 14, 7, 7, 13, 37, 14, 62, 35, 28, 29, 2, 42, 18, 57, 21, 4, 10, 2, 20, 33, 55, 14, 16, 4, 8, 33, 9, 34, 5, 39, 26, 67, 42, 46, 19, 16, 25, 20, 9, 13, 23, 9, 57, 49, 10, 4, 8, 13, 86, 13, 4, 59, 38, 40, 8, 27, 33, 34]
-Total number of times prey was found
-[0, 0, 0, 1, 0, 0, 2, 0, 0, 2, 0, 0, 0, 1, 0, 0, 0, 0, 0, 3, 0, 0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 0, 3, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 1, 1, 0, 2, 0, 0, 0, 0, 0, 4, 0, 2, 1, 0, 1, 0, 0, 0, 3]
-Total number of times predator was found
-[22, 2, 3, 32, 4, 20, 13, 9, 21, 6, 16, 25, 2, 4, 5, 10, 6, 7, 1, 10, 11, 1, 19, 10, 12, 13, 2, 0, 1, 39, 42, 4, 1, 0, 11, 9, 16, 0, 2, 5, 7, 19, 4, 1, 4, 10, 6, 1, 15, 8, 7, 13, 1, 13, 11, 22, 8, 1, 2, 1, 2, 14, 27, 4, 8, 2, 1, 13, 7, 8, 3, 12, 9, 13, 19, 25, 8, 7, 4, 6, 3, 3, 9, 2, 16, 26, 4, 2, 5, 3, 23, 8, 1, 31, 23, 11, 4, 13, 16, 16]
-Success Rate = 56
-Hanged Rate = 1
-Step size = 25
-Avg Prey Found = 0
-Avg Pred Found = 9
-Trial No. = 6
-['Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success']
-Total Number of Steps
-[31, 13, 26, 39, 17, 14, 16, 4, 24, 8, 2, 25, 27, 1, 26, 50, 15, 64, 1, 10, 46, 77, 7, 16, 7, 44, 11, 17, 7, 23, 22, 23, 65, 25, 17, 10, 6, 31, 33, 18, 22, 5, 11, 13, 58, 19, 21, 15, 20, 22, 24, 18, 15, 27, 15, 1, 7, 1, 5, 45, 15, 25, 49, 11, 4, 20, 11, 7, 8, 29, 9, 9, 12, 5, 4, 3, 7, 1, 17, 58, 17, 53, 26, 15, 100, 34, 10, 14, 22, 6, 3, 3, 6, 14, 21, 4, 78, 5, 28, 27]
-Total number of times prey was found
-[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 0, 2, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1]
-Total number of times predator was found
-[5, 5, 16, 17, 6, 1, 5, 2, 17, 0, 1, 12, 14, 0, 3, 3, 4, 34, 0, 6, 25, 23, 5, 3, 2, 11, 6, 9, 4, 11, 20, 1, 16, 0, 1, 3, 3, 5, 7, 12, 11, 3, 5, 9, 19, 12, 11, 7, 11, 15, 8, 6, 12, 11, 5, 0, 4, 0, 1, 16, 6, 13, 13, 5, 0, 10, 5, 3, 5, 16, 3, 2, 4, 4, 0, 1, 2, 0, 4, 19, 7, 14, 3, 8, 53, 17, 7, 4, 15, 2, 1, 1, 4, 10, 1, 2, 24, 3, 18, 16]
-Success Rate = 80
-Hanged Rate = 0
-Step size = 20
-Avg Prey Found = 0
-Avg Pred Found = 8
-Trial No. = 7
-['Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Hanged', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Hanged', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Hanged', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success']
-Total Number of Steps
-[8, 49, 53, 1, 25, 22, 101, 19, 11, 24, 3, 41, 29, 2, 20, 101, 23, 22, 41, 62, 11, 31, 38, 18, 14, 37, 4, 30, 48, 37, 6, 17, 28, 48, 25, 54, 2, 13, 4, 101, 6, 49, 44, 30, 74, 16, 32, 23, 16, 2, 4, 23, 30, 10, 17, 16, 49, 8, 5, 63, 43, 62, 13, 9, 25, 28, 2, 5, 2, 35, 19, 50, 21, 2, 7, 17, 39, 69, 47, 42, 45, 22, 59, 26, 93, 15, 12, 13, 18, 33, 53, 10, 45, 5, 13, 18, 15, 38, 34, 7]
-Total number of times prey was found
-[0, 0, 0, 0, 0, 1, 3, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 2, 0, 0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 2, 0, 3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 2, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 3, 0, 1, 0, 0, 1, 0, 0, 0, 0]
-Total number of times predator was found
-[5, 26, 8, 0, 16, 6, 37, 9, 6, 0, 1, 17, 23, 0, 8, 42, 7, 16, 16, 26, 5, 10, 7, 4, 7, 12, 1, 10, 10, 8, 2, 0, 9, 24, 12, 17, 0, 8, 3, 37, 4, 26, 23, 7, 40, 0, 18, 12, 4, 1, 2, 8, 12, 6, 5, 0, 17, 1, 1, 31, 24, 25, 1, 3, 3, 7, 0, 1, 0, 10, 1, 14, 12, 0, 0, 11, 26, 25, 20, 18, 20, 10, 29, 2, 31, 5, 8, 0, 0, 10, 16, 3, 18, 2, 6, 3, 4, 8, 10, 5]
-Success Rate = 70
-Hanged Rate = 3
 Step size = 28
 Avg Prey Found = 0
-Avg Pred Found = 10
-Trial No. = 8
-['Failed', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Hanged', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success']
-Total Number of Steps
-[13, 6, 15, 34, 68, 20, 40, 38, 7, 59, 18, 28, 42, 10, 46, 40, 70, 29, 89, 36, 32, 21, 20, 52, 43, 6, 24, 24, 30, 20, 88, 25, 51, 6, 62, 20, 22, 35, 12, 20, 31, 19, 15, 30, 46, 15, 17, 32, 13, 22, 27, 39, 27, 13, 24, 73, 16, 18, 48, 15, 28, 20, 18, 21, 40, 7, 34, 4, 8, 101, 2, 2, 7, 58, 7, 22, 29, 18, 10, 5, 65, 43, 3, 11, 2, 8, 29, 76, 34, 59, 1, 18, 65, 1, 8, 43, 16, 57, 51, 13]
-Total number of times prey was found
-[0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 0, 2, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 2, 0, 0, 2, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 3, 0, 2, 0, 1, 1, 0, 0, 3, 0, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 0, 2, 2, 0]
-Total number of times predator was found
-[0, 3, 2, 9, 17, 10, 10, 19, 3, 20, 12, 7, 17, 3, 29, 18, 26, 14, 22, 11, 14, 14, 7, 22, 11, 4, 12, 3, 16, 4, 36, 7, 26, 2, 15, 10, 5, 13, 8, 15, 8, 10, 8, 10, 2, 2, 8, 18, 6, 9, 14, 14, 13, 9, 4, 27, 7, 9, 16, 4, 16, 10, 9, 9, 15, 3, 14, 2, 1, 43, 0, 1, 0, 28, 5, 6, 10, 7, 2, 2, 21, 15, 1, 6, 0, 6, 5, 23, 13, 24, 0, 2, 24, 0, 4, 14, 1, 21, 26, 8]
-Success Rate = 61
-Hanged Rate = 1
-Step size = 29
-Avg Prey Found = 0
-Avg Pred Found = 10
-Trial No. = 9
-['Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Hanged', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Hanged', 'Failed', 'Success', 'Success', 'Success', 'Failed']
-Total Number of Steps
-[16, 4, 37, 90, 15, 4, 37, 9, 1, 24, 16, 30, 5, 9, 7, 32, 51, 10, 10, 38, 52, 13, 40, 43, 36, 101, 23, 47, 1, 4, 24, 12, 33, 47, 20, 26, 79, 31, 35, 18, 45, 35, 1, 31, 25, 37, 20, 14, 46, 24, 24, 48, 31, 47, 17, 23, 36, 23, 49, 23, 32, 26, 21, 11, 1, 1, 41, 7, 5, 27, 26, 31, 53, 23, 8, 92, 34, 12, 8, 62, 7, 75, 40, 9, 74, 1, 14, 20, 21, 13, 39, 39, 12, 62, 101, 40, 37, 1, 45, 34]
-Total number of times prey was found
-[2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 0, 2, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 3, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 1, 3, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
-Total number of times predator was found
-[9, 2, 17, 40, 6, 0, 18, 4, 0, 13, 11, 9, 1, 0, 4, 17, 21, 4, 5, 16, 22, 5, 21, 24, 20, 52, 10, 18, 0, 3, 7, 7, 10, 3, 6, 10, 11, 4, 10, 3, 24, 11, 0, 5, 9, 12, 2, 4, 14, 13, 14, 17, 18, 8, 7, 3, 13, 11, 20, 10, 11, 19, 8, 5, 0, 0, 17, 2, 4, 6, 17, 8, 18, 11, 6, 52, 3, 1, 5, 23, 4, 29, 4, 2, 35, 0, 7, 8, 9, 9, 9, 27, 9, 27, 49, 4, 18, 0, 18, 21]
-Success Rate = 55
-Hanged Rate = 2
-Step size = 29
-Avg Prey Found = 0
 Avg Pred Found = 11
-Trial No. = 10
-['Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Hanged', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Hanged', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed']
+Trial No. = 2
+['Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success']
 Total Number of Steps
-[46, 28, 5, 14, 29, 6, 3, 3, 33, 35, 40, 12, 28, 10, 24, 10, 29, 9, 14, 25, 61, 12, 24, 3, 45, 1, 8, 24, 19, 34, 4, 19, 101, 4, 39, 1, 25, 19, 74, 12, 7, 12, 44, 64, 41, 21, 23, 19, 18, 13, 77, 4, 9, 30, 1, 38, 30, 23, 8, 5, 22, 10, 8, 42, 32, 25, 2, 23, 6, 19, 51, 33, 7, 24, 101, 17, 43, 13, 35, 61, 32, 9, 22, 22, 49, 23, 15, 51, 7, 17, 3, 57, 58, 38, 9, 3, 29, 19, 40, 55]
+[22, 22, 66, 7, 25, 9, 63, 12, 19, 40, 17, 33, 6, 1, 8, 56, 28, 17, 32, 5, 39, 33, 50, 9, 18, 8, 62, 18, 2, 20, 10, 26, 8, 6, 30, 18, 38, 23, 30, 41, 20, 56, 39, 3, 26, 54, 3, 19, 42, 56, 52, 44, 26, 52, 6, 1, 27, 17, 72, 16, 29, 32, 45, 32, 48, 3, 16, 1, 33, 11, 11, 25, 48, 3, 35, 1, 6, 36, 28, 33, 1, 13, 25, 41, 6, 18, 52, 17, 53, 22, 43, 14, 40, 43, 17, 46, 11, 24, 31, 10]
 Total number of times prey was found
-[0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 1, 1, 0, 1, 2, 5, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 2, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+[0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 2, 1, 3, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 2, 1, 0, 0, 0, 3, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 Total number of times predator was found
-[20, 7, 1, 6, 18, 3, 0, 1, 6, 22, 16, 3, 12, 4, 4, 7, 6, 7, 10, 0, 22, 0, 4, 1, 21, 0, 3, 15, 12, 9, 2, 8, 47, 2, 8, 0, 5, 10, 21, 1, 3, 7, 14, 29, 16, 13, 17, 9, 2, 9, 43, 0, 5, 22, 0, 11, 7, 8, 3, 1, 5, 4, 2, 22, 14, 8, 0, 1, 0, 12, 10, 9, 2, 4, 39, 9, 21, 1, 20, 30, 19, 4, 11, 12, 24, 8, 6, 21, 5, 14, 2, 14, 31, 16, 7, 2, 4, 13, 16, 22]
-Success Rate = 68
-Hanged Rate = 2
-Step size = 25
-Avg Prey Found = 0
-Avg Pred Found = 10
-Trial No. = 11
-['Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success']
-Total Number of Steps
-[3, 21, 10, 34, 7, 31, 24, 23, 57, 38, 35, 27, 3, 27, 9, 1, 8, 39, 1, 19, 60, 4, 22, 22, 12, 47, 101, 14, 19, 48, 2, 26, 28, 12, 21, 9, 4, 14, 36, 32, 23, 27, 24, 20, 29, 19, 51, 44, 21, 16, 34, 24, 21, 1, 15, 9, 18, 3, 15, 19, 20, 8, 17, 3, 12, 13, 21, 14, 42, 56, 25, 29, 10, 7, 25, 46, 29, 23, 4, 66, 15, 28, 10, 29, 11, 7, 18, 11, 27, 42, 3, 33, 6, 37, 32, 1, 21, 26, 43, 29]
-Total number of times prey was found
-[0, 1, 0, 0, 0, 2, 0, 0, 1, 2, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 2, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 3, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 1, 2, 0, 0, 0, 0, 1]
-Total number of times predator was found
-[0, 2, 2, 9, 2, 14, 8, 8, 33, 15, 11, 18, 1, 8, 4, 0, 1, 13, 0, 8, 23, 0, 7, 12, 4, 10, 22, 9, 7, 23, 0, 3, 4, 0, 8, 5, 3, 8, 17, 16, 5, 12, 17, 12, 1, 9, 22, 22, 6, 9, 20, 13, 5, 0, 10, 4, 9, 0, 0, 1, 10, 5, 1, 0, 1, 4, 13, 5, 13, 20, 4, 22, 5, 1, 21, 13, 5, 1, 1, 39, 2, 10, 7, 15, 8, 4, 6, 2, 12, 7, 0, 8, 1, 24, 15, 0, 11, 15, 23, 14]
-Success Rate = 73
+[10, 6, 38, 4, 4, 5, 26, 9, 10, 20, 10, 21, 2, 0, 6, 13, 6, 11, 14, 0, 26, 16, 11, 4, 10, 5, 20, 9, 1, 7, 1, 15, 6, 3, 13, 2, 31, 5, 16, 16, 13, 29, 6, 2, 18, 23, 1, 8, 14, 5, 20, 7, 6, 17, 2, 0, 9, 7, 47, 6, 4, 20, 14, 7, 17, 1, 4, 0, 13, 3, 5, 1, 24, 2, 14, 0, 0, 16, 6, 12, 0, 1, 17, 20, 0, 13, 25, 11, 16, 13, 21, 4, 11, 5, 4, 21, 5, 7, 15, 5]
+Success Rate = 64
 Hanged Rate = 0
-Step size = 22
-Avg Prey Found = 0
-Avg Pred Found = 8
-Trial No. = 12
-['Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Hanged', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success']
-Total Number of Steps
-[4, 51, 77, 25, 16, 4, 34, 16, 25, 7, 44, 9, 68, 29, 25, 15, 16, 39, 4, 12, 30, 4, 12, 2, 46, 26, 9, 56, 23, 32, 8, 41, 39, 12, 35, 12, 16, 8, 18, 14, 9, 12, 33, 19, 56, 57, 26, 12, 5, 47, 101, 43, 16, 3, 3, 6, 61, 14, 77, 35, 26, 28, 48, 12, 23, 20, 18, 16, 27, 20, 3, 18, 13, 30, 37, 7, 25, 21, 35, 4, 35, 12, 37, 46, 5, 3, 25, 65, 21, 5, 32, 55, 4, 23, 1, 8, 45, 6, 2, 3]
-Total number of times prey was found
-[0, 0, 4, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 4, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 0, 3, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0]
-Total number of times predator was found
-[0, 20, 28, 10, 5, 1, 6, 9, 14, 4, 7, 7, 12, 4, 13, 3, 4, 15, 2, 5, 21, 1, 7, 1, 24, 6, 5, 28, 6, 12, 5, 22, 1, 5, 16, 0, 6, 1, 12, 4, 4, 8, 6, 12, 28, 27, 4, 3, 0, 12, 44, 13, 4, 1, 1, 4, 24, 9, 42, 15, 12, 15, 15, 6, 14, 11, 8, 5, 11, 7, 1, 9, 2, 15, 8, 4, 7, 11, 14, 1, 8, 5, 19, 13, 2, 2, 11, 15, 3, 2, 16, 24, 1, 0, 0, 3, 25, 3, 1, 1]
-Success Rate = 77
-Hanged Rate = 1
-Step size = 24
-Avg Prey Found = 0
-Avg Pred Found = 9
-Trial No. = 13
-['Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Hanged', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success']
-Total Number of Steps
-[2, 47, 58, 31, 44, 20, 22, 4, 69, 28, 94, 25, 13, 29, 7, 53, 5, 5, 1, 50, 17, 17, 23, 28, 70, 20, 5, 3, 7, 1, 5, 23, 34, 69, 15, 15, 77, 29, 30, 101, 60, 30, 9, 35, 34, 1, 28, 2, 1, 17, 21, 1, 29, 3, 52, 20, 47, 11, 16, 28, 27, 20, 20, 5, 9, 80, 14, 14, 24, 51, 5, 22, 25, 8, 6, 56, 12, 2, 11, 3, 69, 25, 22, 3, 13, 6, 24, 1, 3, 14, 18, 41, 62, 22, 39, 52, 21, 37, 34, 25]
-Total number of times prey was found
-[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 2, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 1, 2, 0]
-Total number of times predator was found
-[0, 18, 25, 4, 26, 13, 4, 2, 33, 20, 43, 2, 10, 3, 4, 25, 0, 1, 0, 14, 0, 8, 6, 9, 12, 11, 1, 1, 0, 0, 1, 10, 15, 25, 0, 6, 26, 18, 7, 52, 14, 12, 5, 17, 16, 0, 9, 0, 0, 4, 12, 0, 2, 0, 18, 8, 20, 8, 9, 10, 6, 8, 12, 3, 7, 24, 7, 3, 14, 24, 4, 1, 11, 6, 0, 35, 9, 0, 8, 1, 26, 3, 7, 1, 6, 2, 8, 0, 1, 7, 9, 26, 17, 11, 18, 20, 3, 12, 11, 9]
-Success Rate = 68
-Hanged Rate = 1
-Step size = 25
-Avg Prey Found = 0
-Avg Pred Found = 9
-Trial No. = 14
-['Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Hanged', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Hanged']
-Total Number of Steps
-[31, 12, 13, 66, 16, 17, 10, 13, 17, 60, 33, 22, 9, 36, 6, 37, 14, 17, 6, 12, 15, 43, 12, 43, 5, 15, 24, 37, 47, 8, 55, 35, 6, 62, 4, 15, 19, 47, 47, 47, 13, 101, 39, 7, 19, 25, 13, 40, 52, 25, 36, 24, 34, 22, 38, 11, 17, 29, 6, 2, 23, 20, 1, 48, 13, 5, 57, 7, 30, 21, 10, 2, 25, 12, 4, 16, 21, 26, 35, 31, 30, 28, 1, 1, 7, 26, 46, 50, 8, 14, 32, 88, 18, 52, 41, 9, 2, 22, 10, 101]
-Total number of times prey was found
-[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 3, 0, 0, 0, 1, 1, 0, 1, 0, 0, 5, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1]
-Total number of times predator was found
-[9, 0, 7, 28, 5, 9, 8, 5, 8, 36, 12, 0, 2, 18, 2, 12, 9, 6, 1, 2, 7, 16, 7, 12, 1, 9, 14, 12, 22, 4, 24, 24, 3, 12, 0, 8, 7, 11, 17, 20, 1, 40, 14, 4, 4, 16, 6, 26, 24, 7, 13, 6, 9, 5, 14, 1, 12, 13, 4, 0, 14, 11, 0, 11, 10, 1, 23, 3, 9, 10, 7, 0, 14, 5, 2, 7, 14, 7, 14, 16, 4, 1, 0, 0, 2, 13, 7, 28, 2, 2, 5, 37, 11, 9, 14, 6, 1, 11, 3, 37]
-Success Rate = 80
-Hanged Rate = 2
-Step size = 25
-Avg Prey Found = 0
-Avg Pred Found = 9
-Trial No. = 15
-['Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Hanged', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Hanged', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Hanged', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success']
-Total Number of Steps
-[58, 12, 44, 20, 57, 1, 26, 24, 12, 2, 45, 21, 15, 3, 24, 1, 33, 1, 27, 19, 10, 34, 10, 32, 1, 21, 44, 25, 1, 21, 35, 2, 68, 19, 54, 101, 22, 54, 7, 16, 27, 10, 29, 5, 34, 19, 3, 34, 26, 22, 9, 51, 43, 95, 1, 4, 6, 37, 30, 69, 43, 5, 17, 13, 24, 23, 101, 5, 22, 11, 47, 28, 33, 14, 29, 57, 36, 41, 7, 39, 101, 2, 18, 8, 5, 32, 8, 5, 4, 50, 59, 32, 40, 43, 12, 26, 12, 65, 23, 31]
-Total number of times prey was found
-[0, 0, 1, 1, 3, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 3, 0, 1, 2, 0, 0, 0, 0, 2, 0, 3, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1, 2, 0, 0, 0, 0, 1, 0, 0, 0, 4, 2, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-Total number of times predator was found
-[29, 4, 22, 16, 25, 0, 5, 15, 7, 0, 16, 14, 5, 0, 11, 0, 10, 0, 10, 10, 7, 23, 7, 11, 0, 4, 22, 8, 0, 8, 21, 0, 9, 12, 29, 39, 15, 16, 4, 9, 11, 7, 10, 2, 20, 2, 2, 10, 11, 16, 0, 22, 1, 28, 0, 2, 4, 20, 11, 32, 20, 2, 9, 7, 4, 10, 38, 2, 12, 8, 14, 9, 20, 6, 10, 38, 17, 13, 2, 5, 47, 1, 10, 3, 2, 4, 1, 2, 1, 27, 14, 20, 17, 24, 8, 10, 6, 24, 8, 16]
-Success Rate = 73
-Hanged Rate = 3
-Step size = 27
-Avg Prey Found = 0
-Avg Pred Found = 11
-Trial No. = 16
-['Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Hanged', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Hanged', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success']
-Total Number of Steps
-[17, 50, 13, 28, 40, 22, 10, 32, 22, 101, 11, 3, 8, 1, 12, 43, 2, 4, 7, 47, 10, 20, 12, 14, 13, 45, 9, 20, 13, 76, 50, 10, 32, 36, 6, 37, 35, 60, 33, 8, 28, 11, 29, 45, 16, 49, 10, 2, 25, 38, 4, 71, 44, 6, 17, 3, 54, 20, 37, 17, 2, 37, 13, 31, 36, 26, 15, 18, 4, 1, 14, 101, 6, 12, 23, 18, 4, 2, 37, 34, 30, 5, 5, 93, 15, 9, 8, 45, 25, 26, 23, 26, 86, 8, 12, 22, 49, 20, 27, 10]
-Total number of times prey was found
-[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 2, 0, 0, 1, 0, 0, 1, 2, 0, 0, 0, 3, 1, 1, 5, 0, 1, 0, 0, 0, 2, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0]
-Total number of times predator was found
-[12, 27, 6, 14, 19, 14, 2, 9, 6, 39, 5, 1, 2, 0, 4, 9, 1, 3, 4, 23, 3, 5, 7, 13, 4, 10, 0, 11, 1, 33, 28, 5, 8, 23, 2, 18, 20, 28, 16, 5, 20, 4, 16, 17, 13, 24, 5, 0, 15, 16, 3, 33, 26, 3, 14, 1, 24, 9, 15, 5, 0, 18, 6, 11, 19, 10, 10, 5, 0, 0, 10, 38, 1, 11, 12, 6, 2, 0, 9, 14, 18, 1, 0, 44, 3, 3, 4, 16, 13, 10, 5, 8, 30, 3, 2, 3, 11, 8, 9, 3]
-Success Rate = 69
-Hanged Rate = 2
-Step size = 25
-Avg Prey Found = 0
-Avg Pred Found = 10
-Trial No. = 17
-['Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success']
-Total Number of Steps
-[15, 8, 3, 9, 18, 26, 66, 24, 12, 22, 16, 12, 10, 37, 13, 1, 20, 15, 24, 23, 19, 13, 20, 54, 7, 8, 41, 81, 28, 16, 1, 21, 11, 5, 31, 7, 35, 10, 13, 72, 3, 19, 45, 40, 24, 36, 14, 10, 28, 13, 18, 25, 4, 56, 16, 8, 31, 4, 25, 34, 20, 47, 10, 12, 44, 1, 6, 25, 18, 29, 11, 19, 57, 28, 49, 3, 7, 55, 13, 57, 7, 14, 2, 7, 68, 78, 13, 20, 23, 56, 2, 1, 18, 29, 2, 36, 8, 31, 37, 34]
-Total number of times prey was found
-[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 2, 2, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 2, 3, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 3, 0, 0, 1, 0, 1, 0, 0, 3, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 3, 0]
-Total number of times predator was found
-[10, 5, 2, 2, 10, 21, 13, 7, 7, 9, 6, 4, 3, 4, 6, 0, 12, 4, 4, 1, 2, 5, 2, 23, 0, 2, 10, 34, 9, 9, 0, 14, 3, 4, 15, 5, 17, 7, 6, 16, 0, 9, 17, 14, 14, 6, 7, 5, 10, 0, 5, 4, 0, 22, 0, 1, 3, 2, 8, 17, 8, 18, 7, 6, 13, 0, 4, 1, 8, 15, 2, 9, 23, 13, 24, 1, 6, 18, 8, 10, 0, 2, 0, 4, 16, 34, 6, 11, 6, 20, 1, 0, 10, 20, 1, 20, 3, 18, 26, 3]
-Success Rate = 74
-Hanged Rate = 0
-Step size = 23
-Avg Prey Found = 0
-Avg Pred Found = 8
-Trial No. = 18
-['Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Hanged', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed']
-Total Number of Steps
-[101, 14, 16, 6, 27, 72, 11, 69, 63, 15, 14, 7, 15, 11, 3, 1, 36, 101, 18, 51, 22, 6, 10, 31, 30, 17, 24, 7, 38, 85, 30, 4, 9, 50, 5, 38, 44, 5, 3, 17, 23, 30, 37, 16, 59, 9, 8, 96, 36, 13, 13, 12, 2, 15, 6, 23, 19, 18, 4, 21, 5, 2, 2, 33, 49, 15, 12, 11, 43, 7, 9, 8, 49, 24, 11, 3, 76, 1, 20, 55, 30, 8, 5, 17, 31, 7, 14, 6, 7, 3, 5, 63, 38, 39, 8, 9, 55, 52, 28, 14]
-Total number of times prey was found
-[2, 0, 0, 0, 0, 1, 0, 1, 0, 0, 2, 0, 0, 0, 0, 0, 1, 4, 0, 2, 0, 0, 0, 1, 0, 0, 0, 0, 0, 3, 3, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 2, 0, 0, 3, 2, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 2, 1, 1, 0]
-Total number of times predator was found
-[39, 6, 10, 3, 3, 20, 3, 37, 19, 5, 9, 4, 8, 4, 1, 0, 13, 33, 7, 15, 9, 0, 3, 5, 18, 7, 2, 2, 15, 36, 4, 0, 1, 17, 1, 15, 15, 1, 2, 14, 5, 12, 18, 5, 24, 2, 1, 27, 8, 7, 8, 1, 0, 4, 4, 4, 7, 5, 1, 1, 0, 1, 1, 9, 34, 7, 4, 2, 10, 2, 5, 2, 19, 14, 1, 2, 42, 0, 1, 25, 6, 4, 3, 10, 16, 1, 5, 1, 0, 2, 2, 22, 21, 13, 4, 5, 20, 17, 15, 7]
-Success Rate = 79
-Hanged Rate = 1
-Step size = 24
-Avg Prey Found = 0
-Avg Pred Found = 9
-Trial No. = 19
-['Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Failed']
-Total Number of Steps
-[37, 85, 29, 51, 9, 38, 39, 15, 50, 18, 78, 41, 18, 12, 66, 20, 30, 11, 42, 25, 12, 53, 7, 50, 3, 22, 24, 24, 29, 21, 24, 3, 73, 15, 11, 27, 10, 21, 10, 67, 20, 21, 14, 1, 43, 16, 9, 75, 6, 33, 15, 45, 2, 13, 6, 39, 25, 7, 30, 33, 14, 18, 29, 7, 62, 30, 59, 33, 15, 44, 16, 61, 24, 28, 9, 7, 20, 43, 48, 14, 14, 9, 58, 53, 19, 8, 47, 4, 31, 30, 48, 34, 3, 8, 3, 15, 7, 35, 18, 6]
-Total number of times prey was found
-[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 2, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 3, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 2, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 0, 1, 1, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0]
-Total number of times predator was found
-[19, 27, 7, 18, 3, 10, 11, 7, 18, 7, 31, 21, 2, 6, 25, 13, 8, 9, 18, 12, 3, 17, 4, 11, 1, 13, 7, 7, 10, 14, 12, 1, 36, 0, 4, 13, 3, 11, 8, 29, 9, 6, 7, 0, 3, 5, 5, 35, 1, 17, 5, 16, 1, 0, 3, 23, 4, 3, 5, 16, 11, 9, 7, 0, 19, 11, 21, 10, 4, 14, 8, 21, 9, 13, 5, 5, 14, 20, 18, 7, 0, 5, 31, 23, 11, 5, 15, 2, 9, 10, 25, 10, 1, 4, 1, 2, 3, 15, 5, 0]
-Success Rate = 60
-Hanged Rate = 0
-Step size = 27
-Avg Prey Found = 0
-Avg Pred Found = 10
-Trial No. = 20
-['Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success']
-Total Number of Steps
-[30, 24, 3, 6, 57, 27, 16, 6, 16, 15, 42, 30, 2, 18, 29, 43, 32, 17, 67, 39, 12, 20, 15, 7, 14, 1, 9, 10, 50, 5, 14, 1, 16, 35, 38, 19, 9, 19, 5, 20, 11, 34, 20, 3, 28, 21, 39, 40, 6, 16, 38, 19, 30, 11, 13, 21, 25, 34, 35, 4, 24, 19, 1, 7, 10, 74, 19, 12, 64, 36, 98, 3, 80, 13, 12, 10, 32, 23, 26, 1, 63, 23, 10, 11, 6, 38, 10, 5, 4, 10, 5, 32, 17, 44, 47, 16, 28, 8, 23, 4]
-Total number of times prey was found
-[0, 0, 0, 0, 3, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 2, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 4, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 2, 1, 0, 1, 0, 0, 0, 0, 2, 0, 1, 2, 0, 1, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
-Total number of times predator was found
-[15, 13, 0, 2, 13, 20, 6, 3, 1, 5, 17, 7, 1, 9, 11, 21, 23, 6, 35, 24, 1, 5, 7, 4, 2, 0, 1, 4, 28, 3, 10, 0, 11, 10, 6, 4, 7, 1, 2, 2, 6, 13, 9, 0, 15, 8, 19, 16, 5, 13, 17, 4, 6, 8, 1, 3, 17, 12, 5, 3, 7, 7, 0, 4, 6, 29, 4, 10, 28, 10, 26, 1, 22, 5, 4, 4, 8, 13, 19, 0, 23, 5, 4, 6, 2, 9, 6, 2, 2, 7, 0, 15, 8, 13, 23, 3, 12, 2, 6, 2]
-Success Rate = 78
-Hanged Rate = 0
-Step size = 22
-Avg Prey Found = 0
-Avg Pred Found = 8
-Trial No. = 21
-['Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Hanged', 'Success', 'Success', 'Success', 'Hanged', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success']
-Total Number of Steps
-[51, 52, 14, 26, 10, 46, 40, 10, 54, 31, 3, 15, 36, 51, 58, 12, 23, 21, 66, 31, 25, 52, 3, 21, 7, 11, 51, 18, 12, 12, 18, 21, 33, 19, 25, 30, 27, 41, 6, 25, 43, 21, 51, 101, 18, 84, 79, 101, 23, 18, 29, 31, 18, 36, 32, 34, 16, 16, 7, 9, 16, 40, 50, 5, 65, 58, 16, 19, 4, 87, 12, 56, 29, 37, 28, 16, 14, 29, 27, 48, 2, 3, 41, 85, 11, 10, 13, 84, 39, 39, 51, 40, 7, 29, 29, 7, 44, 2, 28, 39]
-Total number of times prey was found
-[1, 2, 0, 0, 0, 0, 1, 0, 0, 2, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 2, 0, 1, 0, 0, 2, 0, 2, 1, 0, 0, 1, 1, 0, 0, 1, 2, 1, 0, 1, 1, 3, 0, 0, 0, 0, 1, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 2, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-Total number of times predator was found
-[23, 17, 4, 5, 3, 10, 14, 0, 5, 12, 2, 12, 21, 10, 12, 7, 4, 9, 20, 14, 9, 24, 2, 12, 2, 9, 29, 6, 3, 3, 6, 0, 15, 4, 5, 2, 18, 10, 1, 8, 9, 9, 17, 39, 9, 32, 44, 52, 10, 10, 17, 1, 3, 17, 5, 14, 7, 5, 4, 3, 8, 18, 9, 0, 31, 17, 8, 1, 1, 26, 4, 25, 17, 17, 9, 1, 9, 6, 15, 20, 1, 1, 4, 35, 5, 4, 4, 28, 15, 10, 18, 15, 5, 7, 11, 3, 23, 0, 12, 19]
-Success Rate = 74
-Hanged Rate = 2
-Step size = 31
-Avg Prey Found = 0
-Avg Pred Found = 11
-Trial No. = 22
-['Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Hanged', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success']
-Total Number of Steps
-[37, 41, 17, 38, 17, 12, 10, 49, 14, 1, 34, 73, 39, 23, 34, 53, 7, 35, 1, 1, 17, 41, 10, 27, 41, 47, 38, 14, 1, 11, 24, 19, 1, 14, 14, 40, 26, 24, 52, 28, 3, 42, 1, 29, 25, 13, 17, 6, 37, 94, 37, 23, 6, 31, 8, 30, 34, 71, 63, 39, 34, 41, 17, 19, 15, 21, 5, 18, 9, 51, 47, 22, 1, 46, 101, 10, 17, 6, 49, 4, 85, 51, 37, 11, 25, 15, 4, 19, 22, 11, 6, 12, 6, 79, 19, 2, 8, 1, 3, 34]
-Total number of times prey was found
-[1, 4, 0, 0, 0, 0, 0, 3, 1, 0, 0, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 1, 0, 1, 0, 3, 0, 0, 0, 0, 0, 4, 0, 1, 0, 3, 0, 0, 0, 1, 0, 0, 0, 7, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
-Total number of times predator was found
-[5, 23, 3, 16, 9, 5, 6, 16, 5, 0, 15, 29, 14, 8, 8, 22, 2, 11, 0, 0, 3, 20, 5, 14, 11, 24, 16, 6, 0, 1, 9, 14, 0, 8, 7, 7, 5, 9, 12, 17, 1, 20, 0, 17, 17, 10, 9, 5, 9, 39, 7, 12, 5, 18, 5, 3, 23, 24, 21, 18, 7, 13, 11, 5, 4, 9, 3, 8, 5, 15, 19, 10, 0, 12, 49, 4, 9, 3, 26, 1, 22, 23, 13, 1, 11, 5, 2, 4, 7, 5, 5, 5, 3, 28, 4, 1, 4, 0, 0, 13]
-Success Rate = 79
-Hanged Rate = 1
 Step size = 26
 Avg Prey Found = 0
 Avg Pred Found = 10
-Trial No. = 23
-['Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Hanged', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Hanged', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed']
+Trial No. = 3
+['Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed']
 Total Number of Steps
-[16, 5, 26, 15, 7, 33, 56, 31, 23, 12, 22, 46, 45, 21, 39, 2, 39, 10, 1, 5, 7, 49, 26, 5, 1, 32, 22, 101, 37, 10, 18, 32, 30, 6, 24, 18, 13, 14, 101, 14, 13, 21, 28, 1, 19, 25, 10, 50, 14, 7, 25, 16, 12, 24, 30, 40, 5, 7, 9, 41, 40, 9, 6, 17, 19, 18, 23, 50, 12, 10, 48, 3, 35, 10, 11, 10, 17, 31, 5, 18, 18, 28, 24, 38, 33, 6, 68, 6, 1, 9, 36, 43, 10, 40, 38, 31, 38, 1, 56, 12]
+[15, 42, 63, 80, 39, 2, 5, 60, 82, 22, 29, 34, 22, 31, 15, 6, 36, 34, 3, 7, 40, 8, 48, 4, 18, 6, 39, 18, 26, 5, 2, 17, 17, 7, 50, 24, 26, 7, 15, 25, 163, 2, 28, 33, 5, 56, 38, 58, 1, 25, 8, 38, 11, 30, 26, 28, 33, 20, 20, 22, 48, 61, 48, 77, 2, 15, 14, 16, 19, 8, 31, 5, 16, 11, 9, 43, 28, 9, 24, 5, 33, 3, 8, 8, 82, 74, 11, 30, 7, 17, 22, 48, 37, 3, 7, 20, 15, 1, 10, 24]
 Total number of times prey was found
-[0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 3, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 4, 0, 0, 1, 1, 1, 0, 0, 0]
+[0, 0, 0, 1, 1, 0, 0, 2, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 3, 0, 0, 1, 0, 1, 0, 0, 2, 0, 2, 0, 1, 0, 1, 0, 3, 0, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 3, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 Total number of times predator was found
-[12, 4, 19, 11, 3, 22, 23, 7, 10, 2, 7, 18, 14, 14, 15, 1, 12, 2, 0, 4, 6, 15, 9, 0, 0, 15, 15, 25, 10, 2, 8, 18, 19, 0, 11, 10, 2, 12, 34, 7, 7, 15, 4, 0, 3, 12, 5, 18, 9, 2, 11, 9, 6, 18, 7, 10, 2, 4, 5, 7, 10, 4, 4, 4, 11, 7, 7, 17, 2, 4, 10, 2, 15, 5, 4, 6, 2, 2, 3, 13, 1, 18, 7, 11, 7, 1, 24, 3, 0, 3, 15, 25, 4, 14, 17, 6, 24, 0, 18, 7]
+[3, 15, 29, 17, 10, 0, 2, 23, 19, 2, 8, 7, 8, 22, 8, 4, 8, 19, 1, 3, 23, 1, 6, 2, 12, 4, 18, 9, 17, 0, 0, 5, 10, 5, 24, 10, 9, 5, 6, 5, 83, 1, 2, 20, 2, 27, 17, 20, 0, 10, 6, 17, 5, 7, 9, 11, 3, 8, 4, 3, 12, 22, 26, 33, 0, 9, 3, 1, 4, 3, 14, 3, 5, 3, 2, 14, 6, 4, 14, 2, 18, 1, 5, 4, 29, 28, 0, 9, 4, 8, 12, 9, 15, 1, 6, 1, 7, 0, 2, 0]
+Success Rate = 74
+Hanged Rate = 0
+Step size = 26
+Avg Prey Found = 0
+Avg Pred Found = 9
+Trial No. = 4
+['Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed']
+Total Number of Steps
+[100, 20, 23, 26, 20, 15, 28, 41, 11, 13, 31, 26, 22, 9, 17, 27, 19, 38, 12, 6, 22, 46, 20, 19, 73, 23, 36, 3, 9, 42, 17, 42, 25, 86, 23, 2, 20, 48, 8, 34, 12, 1, 39, 63, 13, 41, 45, 36, 41, 29, 4, 12, 76, 6, 9, 17, 120, 54, 2, 9, 4, 66, 69, 3, 45, 99, 4, 18, 22, 15, 37, 34, 24, 11, 30, 33, 12, 44, 19, 53, 23, 29, 15, 43, 27, 24, 38, 12, 62, 36, 2, 30, 6, 32, 26, 5, 9, 9, 14, 8]
+Total number of times prey was found
+[0, 0, 1, 0, 2, 0, 1, 1, 2, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 4, 0, 3, 0, 0, 0, 3, 0, 0, 0, 1, 3, 1, 0, 0, 5, 0, 0, 1, 1, 0, 0, 0, 0, 6, 0, 0, 4, 0, 0, 0, 0, 0, 1, 3, 0, 0, 0, 2, 0, 0, 0, 0, 4, 0, 0, 1, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Total number of times predator was found
+[46, 12, 6, 4, 9, 7, 14, 13, 4, 7, 13, 14, 6, 2, 9, 8, 9, 14, 5, 3, 1, 15, 7, 2, 36, 11, 19, 1, 3, 9, 13, 5, 13, 51, 5, 1, 10, 14, 6, 6, 4, 0, 6, 16, 9, 23, 15, 2, 24, 9, 2, 4, 17, 2, 0, 8, 46, 28, 1, 5, 0, 24, 19, 1, 15, 25, 1, 6, 4, 11, 19, 16, 3, 6, 4, 16, 3, 10, 6, 22, 11, 11, 5, 17, 0, 3, 12, 4, 27, 6, 0, 5, 2, 16, 7, 2, 6, 5, 8, 1]
+Success Rate = 65
+Hanged Rate = 0
+Step size = 28
+Avg Prey Found = 0
+Avg Pred Found = 10
+Trial No. = 5
+['Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success']
+Total Number of Steps
+[40, 19, 36, 41, 5, 9, 29, 8, 13, 35, 27, 5, 38, 38, 5, 11, 4, 39, 29, 63, 24, 30, 12, 44, 9, 47, 14, 67, 41, 33, 15, 20, 17, 2, 19, 28, 5, 22, 66, 38, 1, 86, 5, 25, 46, 18, 49, 27, 25, 5, 43, 7, 39, 2, 4, 32, 37, 2, 17, 21, 51, 38, 13, 27, 24, 22, 6, 12, 23, 7, 9, 39, 29, 28, 37, 34, 46, 63, 3, 51, 43, 26, 18, 114, 30, 48, 64, 98, 14, 40, 41, 39, 13, 30, 47, 52, 9, 74, 17, 1]
+Total number of times prey was found
+[0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3, 0, 2, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 1, 0, 0, 2, 1, 3, 0, 2, 0, 0, 0, 0, 2, 0, 4, 6, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1]
+Total number of times predator was found
+[18, 0, 13, 17, 2, 2, 14, 5, 2, 17, 8, 2, 14, 25, 3, 5, 2, 18, 19, 25, 8, 4, 1, 21, 2, 24, 6, 21, 1, 23, 4, 12, 9, 1, 12, 2, 0, 9, 35, 18, 0, 51, 2, 13, 9, 7, 12, 13, 7, 3, 20, 3, 19, 0, 2, 7, 18, 1, 10, 8, 27, 15, 1, 4, 1, 2, 5, 9, 4, 4, 6, 5, 5, 17, 15, 6, 24, 31, 1, 17, 12, 1, 5, 47, 4, 30, 26, 47, 7, 19, 6, 16, 2, 9, 25, 28, 5, 18, 5, 0]
 Success Rate = 72
-Hanged Rate = 2
+Hanged Rate = 0
+Step size = 29
+Avg Prey Found = 0
+Avg Pred Found = 11
+Trial No. = 6
+['Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success']
+Total Number of Steps
+[22, 17, 29, 33, 32, 18, 35, 53, 26, 30, 42, 29, 50, 33, 8, 8, 1, 17, 57, 3, 3, 25, 24, 20, 4, 13, 6, 33, 2, 9, 27, 15, 12, 26, 31, 5, 19, 29, 15, 5, 11, 54, 10, 5, 2, 55, 20, 68, 26, 1, 20, 19, 7, 49, 16, 23, 89, 18, 17, 25, 24, 5, 46, 9, 10, 88, 13, 2, 18, 48, 10, 2, 26, 17, 8, 25, 14, 37, 57, 12, 4, 5, 7, 50, 28, 54, 2, 12, 5, 20, 20, 11, 16, 8, 29, 62, 118, 17, 9, 39]
+Total number of times prey was found
+[0, 0, 5, 0, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 3, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 3, 0, 0, 0, 0, 0, 6, 0, 1, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 3, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 0, 0, 0, 0, 1, 1, 1, 2, 0, 0]
+Total number of times predator was found
+[7, 12, 16, 19, 20, 10, 14, 32, 17, 17, 27, 17, 17, 16, 2, 4, 0, 10, 8, 1, 1, 17, 14, 9, 3, 7, 3, 25, 0, 4, 14, 8, 3, 20, 8, 2, 8, 18, 10, 4, 4, 22, 4, 4, 1, 17, 10, 14, 11, 0, 0, 9, 3, 12, 13, 10, 36, 0, 7, 16, 15, 3, 27, 0, 5, 31, 0, 1, 8, 20, 8, 0, 10, 9, 4, 9, 10, 13, 35, 6, 3, 1, 0, 14, 10, 25, 1, 8, 0, 2, 5, 3, 1, 4, 16, 28, 62, 5, 3, 19]
+Success Rate = 77
+Hanged Rate = 0
+Step size = 23
+Avg Prey Found = 0
+Avg Pred Found = 10
+Trial No. = 7
+['Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success']
+Total Number of Steps
+[12, 5, 17, 30, 100, 48, 59, 5, 15, 10, 41, 50, 73, 60, 65, 27, 53, 71, 6, 4, 23, 23, 9, 44, 16, 15, 70, 24, 13, 16, 122, 81, 15, 24, 134, 75, 21, 31, 15, 11, 37, 29, 41, 43, 18, 41, 18, 22, 52, 12, 11, 11, 5, 35, 2, 3, 16, 5, 2, 31, 18, 34, 52, 69, 61, 20, 77, 18, 71, 1, 22, 41, 82, 4, 65, 109, 91, 7, 122, 26, 71, 4, 16, 60, 2, 33, 38, 3, 62, 12, 23, 1, 58, 20, 93, 25, 4, 19, 47, 25]
+Total number of times prey was found
+[0, 0, 0, 0, 1, 2, 0, 0, 1, 1, 1, 1, 3, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 4, 4, 2, 0, 7, 0, 2, 0, 0, 2, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 3, 0]
+Total number of times predator was found
+[5, 0, 7, 13, 43, 21, 23, 3, 11, 3, 16, 30, 26, 21, 35, 7, 26, 25, 3, 2, 0, 6, 2, 22, 7, 7, 22, 13, 7, 10, 67, 29, 6, 10, 54, 35, 2, 15, 1, 7, 14, 12, 13, 10, 11, 21, 10, 17, 22, 0, 4, 8, 2, 17, 1, 1, 8, 1, 1, 13, 11, 7, 25, 30, 15, 11, 28, 10, 33, 0, 5, 6, 37, 1, 30, 49, 44, 4, 47, 6, 31, 1, 9, 32, 1, 22, 6, 2, 31, 10, 11, 0, 20, 10, 49, 11, 2, 3, 28, 7]
+Success Rate = 79
+Hanged Rate = 0
+Step size = 35
+Avg Prey Found = 0
+Avg Pred Found = 15
+Trial No. = 8
+['Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success']
+Total Number of Steps
+[11, 30, 26, 14, 14, 7, 13, 39, 29, 3, 1, 51, 5, 27, 40, 21, 12, 17, 23, 62, 47, 31, 16, 98, 25, 17, 24, 7, 6, 32, 14, 28, 16, 25, 9, 35, 24, 47, 17, 71, 15, 66, 30, 19, 12, 26, 7, 23, 8, 17, 37, 32, 25, 40, 22, 14, 24, 20, 7, 2, 9, 34, 17, 26, 7, 23, 19, 23, 37, 13, 9, 5, 4, 39, 50, 10, 61, 35, 25, 30, 19, 11, 18, 8, 15, 11, 1, 28, 24, 3, 15, 37, 17, 6, 31, 20, 25, 53, 15, 2]
+Total number of times prey was found
+[0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 2, 0, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 1, 1, 1, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 1, 0, 0, 1, 1, 0, 3, 0, 0]
+Total number of times predator was found
+[5, 2, 11, 5, 0, 0, 1, 15, 11, 0, 0, 21, 1, 7, 15, 1, 5, 2, 10, 20, 18, 8, 4, 23, 18, 12, 4, 3, 2, 10, 9, 12, 6, 2, 6, 12, 13, 13, 2, 30, 8, 25, 7, 7, 4, 11, 2, 4, 3, 9, 17, 7, 19, 17, 12, 8, 7, 13, 4, 1, 2, 15, 8, 6, 6, 4, 9, 13, 13, 9, 0, 3, 1, 12, 12, 7, 23, 13, 8, 10, 10, 2, 9, 5, 5, 5, 0, 14, 11, 1, 7, 11, 10, 3, 0, 15, 4, 20, 4, 1]
+Success Rate = 79
+Hanged Rate = 0
+Step size = 23
+Avg Prey Found = 0
+Avg Pred Found = 8
+Trial No. = 9
+['Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success']
+Total Number of Steps
+[21, 1, 27, 15, 19, 16, 29, 68, 10, 43, 53, 82, 54, 11, 38, 10, 31, 44, 53, 23, 66, 10, 28, 13, 9, 6, 14, 2, 27, 3, 18, 2, 13, 13, 27, 39, 24, 38, 14, 3, 13, 22, 51, 37, 8, 24, 3, 13, 4, 91, 7, 7, 7, 6, 14, 18, 4, 4, 31, 32, 25, 88, 7, 7, 33, 25, 31, 4, 68, 64, 8, 6, 11, 47, 57, 77, 12, 45, 13, 18, 10, 41, 30, 20, 27, 19, 12, 90, 65, 18, 9, 2, 66, 31, 2, 48, 4, 64, 30, 42]
+Total number of times prey was found
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 1, 0, 0, 0, 0, 5, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 2, 4, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2]
+Total number of times predator was found
+[16, 0, 12, 8, 13, 3, 6, 36, 4, 16, 16, 37, 25, 5, 19, 5, 11, 16, 11, 10, 22, 6, 14, 4, 7, 4, 6, 0, 3, 1, 7, 1, 5, 0, 7, 21, 15, 17, 11, 2, 1, 3, 12, 9, 5, 15, 0, 11, 1, 41, 4, 5, 5, 4, 7, 1, 3, 3, 16, 11, 6, 44, 4, 4, 13, 1, 18, 1, 24, 14, 2, 0, 5, 2, 17, 31, 4, 15, 5, 16, 4, 29, 12, 5, 11, 3, 8, 48, 27, 0, 3, 1, 17, 9, 1, 5, 2, 19, 1, 13]
+Success Rate = 82
+Hanged Rate = 0
+Step size = 26
+Avg Prey Found = 0
+Avg Pred Found = 10
+Trial No. = 10
+['Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success']
+Total Number of Steps
+[1, 32, 19, 17, 24, 37, 19, 11, 11, 19, 4, 3, 90, 11, 4, 26, 12, 43, 11, 47, 99, 10, 32, 51, 10, 14, 33, 30, 61, 21, 5, 14, 17, 19, 4, 7, 21, 6, 19, 14, 15, 72, 11, 38, 21, 39, 5, 11, 38, 47, 6, 24, 4, 15, 6, 11, 8, 3, 127, 1, 14, 37, 8, 39, 6, 24, 32, 11, 5, 19, 37, 5, 16, 32, 24, 31, 18, 15, 64, 18, 23, 27, 68, 7, 28, 35, 33, 15, 7, 30, 19, 11, 25, 50, 7, 14, 5, 25, 17, 96]
+Total number of times prey was found
+[0, 3, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 3, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+Total number of times predator was found
+[0, 11, 2, 6, 9, 17, 4, 2, 3, 3, 3, 1, 8, 6, 3, 13, 0, 23, 6, 9, 38, 0, 7, 24, 6, 4, 4, 9, 14, 7, 2, 11, 8, 5, 1, 3, 8, 1, 0, 8, 4, 36, 4, 17, 7, 15, 2, 0, 12, 11, 2, 5, 1, 3, 1, 9, 3, 1, 54, 0, 2, 23, 0, 9, 3, 2, 5, 5, 0, 6, 20, 0, 8, 14, 1, 18, 2, 3, 23, 5, 7, 17, 12, 5, 4, 6, 13, 5, 4, 19, 5, 6, 15, 19, 1, 9, 2, 15, 9, 30]
+Success Rate = 68
+Hanged Rate = 0
+Step size = 24
+Avg Prey Found = 0
+Avg Pred Found = 8
+Trial No. = 11
+['Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success']
+Total Number of Steps
+[16, 14, 12, 31, 20, 15, 27, 19, 5, 23, 16, 50, 34, 10, 11, 11, 37, 20, 6, 8, 22, 45, 20, 49, 18, 30, 17, 30, 33, 77, 22, 34, 40, 20, 33, 20, 2, 11, 9, 6, 8, 16, 19, 26, 3, 8, 16, 44, 29, 26, 1, 10, 1, 41, 67, 18, 38, 37, 37, 51, 32, 34, 1, 28, 43, 13, 42, 22, 30, 6, 14, 24, 62, 167, 48, 30, 5, 19, 65, 11, 19, 65, 2, 16, 85, 8, 28, 9, 30, 19, 19, 19, 4, 42, 33, 35, 14, 16, 17, 59]
+Total number of times prey was found
+[1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 3, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 1, 2, 0, 0, 0, 1, 2, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 4, 2, 0, 0, 4, 0, 1, 2, 0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1]
+Total number of times predator was found
+[6, 7, 1, 5, 15, 8, 17, 3, 3, 13, 5, 19, 14, 5, 5, 7, 11, 8, 1, 3, 8, 29, 6, 21, 11, 10, 7, 16, 10, 23, 11, 20, 8, 8, 16, 7, 0, 3, 3, 3, 3, 11, 11, 18, 1, 3, 4, 10, 18, 7, 0, 9, 0, 10, 34, 6, 5, 3, 1, 10, 9, 13, 0, 2, 5, 5, 16, 9, 16, 4, 2, 6, 19, 86, 21, 14, 3, 12, 29, 5, 0, 38, 0, 5, 28, 3, 17, 1, 2, 11, 8, 11, 1, 19, 19, 16, 9, 8, 0, 29]
+Success Rate = 77
+Hanged Rate = 0
+Step size = 26
+Avg Prey Found = 0
+Avg Pred Found = 10
+Trial No. = 12
+['Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success']
+Total Number of Steps
+[60, 50, 26, 30, 5, 7, 13, 97, 2, 20, 17, 14, 22, 42, 16, 76, 27, 14, 11, 36, 14, 29, 36, 3, 1, 58, 27, 23, 69, 15, 5, 6, 35, 34, 6, 5, 52, 17, 9, 21, 24, 1, 7, 48, 7, 40, 17, 31, 35, 13, 27, 42, 24, 12, 31, 2, 20, 58, 6, 21, 40, 30, 16, 23, 5, 43, 10, 4, 71, 11, 31, 26, 13, 13, 25, 10, 33, 22, 37, 10, 42, 3, 25, 23, 17, 12, 21, 13, 31, 15, 13, 32, 64, 15, 15, 71, 2, 70, 40, 15]
+Total number of times prey was found
+[0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 3, 0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 2, 0, 0, 0, 0, 2, 1, 1, 1, 0, 0, 2, 0, 0, 3, 2, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 2, 0]
+Total number of times predator was found
+[28, 11, 14, 17, 1, 4, 3, 47, 1, 1, 0, 10, 1, 28, 8, 33, 19, 4, 1, 13, 3, 6, 11, 0, 0, 26, 14, 10, 14, 11, 4, 4, 9, 19, 4, 2, 17, 1, 7, 13, 9, 0, 2, 23, 5, 9, 0, 13, 17, 9, 17, 14, 6, 7, 6, 1, 10, 34, 2, 11, 14, 10, 7, 10, 0, 27, 7, 3, 38, 4, 6, 4, 5, 0, 11, 6, 16, 6, 11, 0, 17, 0, 5, 0, 2, 3, 0, 0, 4, 9, 8, 12, 28, 2, 11, 26, 1, 13, 20, 5]
+Success Rate = 76
+Hanged Rate = 0
+Step size = 25
+Avg Prey Found = 0
+Avg Pred Found = 9
+Trial No. = 13
+['Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed']
+Total Number of Steps
+[22, 13, 10, 16, 13, 12, 19, 14, 43, 29, 23, 1, 38, 7, 18, 21, 7, 8, 22, 33, 2, 37, 22, 12, 23, 43, 45, 41, 13, 21, 57, 18, 16, 9, 9, 27, 3, 20, 2, 35, 15, 16, 26, 43, 16, 22, 30, 24, 6, 15, 15, 3, 20, 22, 35, 30, 1, 28, 21, 9, 26, 33, 35, 7, 21, 56, 54, 5, 19, 86, 24, 8, 24, 34, 60, 43, 15, 19, 25, 4, 9, 10, 37, 1, 39, 10, 31, 9, 8, 16, 49, 38, 26, 68, 57, 39, 17, 51, 25, 22]
+Total number of times prey was found
+[1, 0, 0, 1, 0, 3, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+Total number of times predator was found
+[13, 4, 8, 6, 6, 9, 6, 3, 7, 14, 9, 0, 15, 4, 10, 12, 0, 0, 18, 13, 1, 17, 15, 6, 12, 5, 10, 15, 3, 8, 20, 4, 6, 3, 6, 7, 0, 9, 0, 19, 4, 3, 4, 16, 0, 2, 12, 10, 1, 0, 2, 0, 12, 9, 20, 7, 0, 11, 11, 3, 8, 27, 14, 2, 6, 24, 19, 1, 8, 34, 10, 7, 7, 10, 35, 2, 4, 8, 12, 1, 3, 8, 22, 0, 20, 5, 17, 3, 5, 4, 18, 17, 13, 15, 28, 18, 11, 12, 12, 0]
+Success Rate = 68
+Hanged Rate = 0
 Step size = 23
 Avg Prey Found = 0
 Avg Pred Found = 9
-Trial No. = 24
-['Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Hanged', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success']
+Trial No. = 14
+['Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed']
 Total Number of Steps
-[8, 28, 41, 48, 1, 14, 38, 22, 57, 15, 40, 30, 16, 20, 7, 20, 61, 9, 6, 21, 37, 21, 2, 13, 34, 11, 25, 16, 54, 9, 1, 6, 17, 1, 34, 94, 47, 32, 65, 19, 41, 49, 7, 27, 9, 17, 40, 28, 12, 12, 101, 20, 30, 3, 25, 57, 2, 52, 29, 16, 41, 68, 18, 68, 8, 38, 28, 77, 41, 8, 39, 2, 36, 50, 44, 84, 16, 25, 4, 10, 50, 47, 27, 13, 16, 13, 3, 10, 26, 4, 28, 24, 21, 46, 4, 4, 19, 40, 1, 30]
+[18, 11, 11, 37, 17, 2, 7, 14, 55, 24, 8, 15, 17, 66, 10, 10, 4, 7, 22, 16, 72, 22, 66, 22, 3, 37, 1, 2, 14, 8, 23, 15, 25, 28, 7, 37, 5, 52, 10, 5, 4, 46, 34, 17, 6, 12, 40, 19, 59, 38, 32, 10, 11, 91, 13, 1, 28, 8, 5, 6, 25, 18, 5, 37, 21, 52, 23, 23, 11, 7, 29, 74, 18, 29, 76, 63, 63, 35, 12, 38, 9, 33, 21, 47, 15, 44, 9, 33, 15, 13, 28, 16, 10, 34, 7, 1, 9, 4, 26, 10]
 Total number of times prey was found
-[0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 3, 0, 0, 2, 1, 4, 1, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 1, 4, 0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 2, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
 Total number of times predator was found
-[1, 2, 21, 26, 0, 2, 12, 9, 16, 0, 4, 7, 3, 13, 1, 6, 29, 2, 2, 6, 1, 11, 0, 8, 6, 3, 6, 1, 31, 2, 0, 2, 1, 0, 7, 32, 10, 26, 33, 4, 9, 28, 0, 3, 6, 11, 16, 15, 4, 5, 27, 11, 6, 1, 4, 22, 0, 27, 20, 8, 20, 20, 1, 38, 3, 19, 11, 35, 9, 7, 13, 1, 12, 12, 22, 32, 6, 10, 2, 0, 30, 11, 7, 8, 10, 6, 2, 6, 18, 1, 14, 17, 12, 7, 3, 2, 2, 17, 0, 17]
+[1, 6, 3, 8, 7, 1, 4, 1, 24, 11, 6, 3, 12, 17, 4, 3, 2, 4, 5, 6, 37, 16, 39, 13, 1, 14, 0, 1, 6, 4, 3, 4, 14, 9, 2, 19, 2, 7, 3, 2, 0, 15, 3, 4, 3, 4, 15, 3, 14, 7, 19, 3, 8, 37, 9, 0, 13, 7, 2, 2, 15, 0, 0, 16, 15, 29, 7, 5, 2, 3, 6, 28, 9, 5, 23, 26, 32, 9, 4, 10, 7, 10, 16, 14, 3, 13, 6, 11, 0, 10, 20, 12, 5, 14, 4, 0, 7, 2, 11, 4]
+Success Rate = 65
+Hanged Rate = 0
+Step size = 23
+Avg Prey Found = 0
+Avg Pred Found = 9
+Trial No. = 15
+['Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success']
+Total Number of Steps
+[22, 43, 4, 22, 17, 107, 36, 9, 44, 67, 10, 10, 28, 27, 65, 26, 19, 64, 24, 50, 13, 53, 3, 38, 6, 54, 13, 30, 8, 14, 3, 23, 29, 20, 36, 34, 15, 36, 67, 72, 45, 9, 6, 24, 17, 36, 40, 15, 11, 57, 31, 4, 29, 1, 39, 6, 38, 10, 46, 22, 37, 9, 42, 7, 16, 36, 75, 26, 2, 11, 50, 21, 34, 30, 32, 6, 1, 38, 27, 30, 41, 16, 11, 14, 16, 11, 8, 18, 24, 37, 47, 6, 29, 55, 5, 68, 3, 17, 117, 1]
+Total number of times prey was found
+[0, 0, 0, 0, 0, 1, 2, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 3, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 1, 0, 0, 2, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 1, 3, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+Total number of times predator was found
+[16, 16, 2, 7, 8, 17, 12, 1, 23, 20, 4, 4, 13, 12, 28, 4, 3, 27, 7, 22, 8, 23, 1, 11, 4, 29, 3, 18, 6, 11, 2, 5, 4, 4, 3, 4, 13, 7, 22, 26, 20, 6, 5, 6, 8, 8, 8, 9, 9, 2, 17, 0, 16, 0, 16, 3, 7, 4, 13, 5, 23, 5, 21, 5, 9, 7, 40, 4, 0, 0, 10, 12, 17, 10, 10, 0, 0, 12, 8, 11, 15, 5, 8, 2, 5, 2, 2, 9, 3, 19, 32, 5, 19, 30, 2, 24, 1, 2, 44, 0]
+Success Rate = 72
+Hanged Rate = 0
+Step size = 28
+Avg Prey Found = 0
+Avg Pred Found = 10
+Trial No. = 16
+['Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed']
+Total Number of Steps
+[8, 11, 11, 2, 21, 57, 2, 8, 15, 16, 10, 3, 31, 16, 20, 25, 4, 14, 8, 22, 3, 41, 10, 1, 20, 12, 36, 27, 2, 24, 24, 4, 36, 11, 14, 31, 6, 33, 3, 20, 1, 36, 25, 1, 12, 4, 7, 9, 18, 27, 26, 13, 10, 4, 5, 6, 80, 46, 5, 7, 5, 4, 1, 14, 31, 43, 2, 21, 28, 9, 79, 38, 41, 11, 25, 1, 15, 48, 49, 4, 27, 13, 11, 1, 23, 17, 44, 1, 16, 25, 19, 39, 17, 1, 13, 18, 22, 5, 35, 32]
+Total number of times prey was found
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 2, 0]
+Total number of times predator was found
+[3, 5, 5, 1, 5, 32, 1, 6, 8, 3, 1, 1, 2, 7, 4, 11, 1, 0, 6, 2, 0, 16, 8, 0, 6, 3, 13, 15, 0, 8, 8, 1, 5, 3, 3, 16, 3, 13, 1, 10, 0, 14, 13, 0, 4, 2, 1, 4, 13, 1, 3, 3, 5, 3, 1, 3, 26, 6, 2, 1, 0, 3, 0, 8, 12, 3, 0, 0, 8, 3, 5, 20, 12, 1, 0, 0, 12, 7, 21, 1, 19, 4, 6, 0, 3, 4, 21, 0, 1, 2, 1, 18, 5, 0, 0, 2, 8, 1, 23, 3]
+Success Rate = 78
+Hanged Rate = 0
+Step size = 18
+Avg Prey Found = 0
+Avg Pred Found = 5
+Trial No. = 17
+['Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success']
+Total Number of Steps
+[11, 17, 20, 3, 13, 24, 35, 11, 47, 2, 22, 69, 37, 26, 16, 22, 10, 19, 33, 8, 18, 8, 25, 9, 3, 14, 31, 32, 43, 21, 56, 39, 21, 19, 35, 4, 29, 9, 53, 33, 5, 15, 6, 48, 13, 12, 52, 13, 51, 17, 4, 39, 47, 22, 4, 28, 7, 56, 63, 9, 14, 4, 14, 7, 49, 3, 40, 28, 18, 46, 1, 2, 10, 34, 48, 12, 3, 27, 49, 1, 30, 16, 37, 34, 8, 34, 28, 22, 20, 8, 36, 3, 9, 49, 1, 58, 28, 115, 14, 17]
+Total number of times prey was found
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 2, 0, 1, 0, 0, 1, 2, 0, 2, 0, 2, 0, 0, 3, 0, 2, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0]
+Total number of times predator was found
+[5, 1, 5, 1, 2, 9, 15, 2, 23, 1, 4, 40, 17, 10, 13, 4, 2, 13, 17, 4, 9, 1, 3, 1, 1, 10, 10, 6, 21, 13, 31, 26, 10, 15, 22, 3, 12, 6, 16, 17, 2, 5, 0, 18, 2, 3, 27, 1, 8, 1, 0, 12, 20, 14, 3, 7, 2, 24, 32, 4, 3, 2, 6, 0, 14, 2, 26, 17, 9, 19, 0, 1, 8, 12, 25, 5, 2, 0, 25, 0, 11, 4, 8, 15, 1, 16, 15, 11, 12, 4, 8, 2, 4, 30, 0, 27, 12, 52, 6, 10]
+Success Rate = 70
+Hanged Rate = 0
+Step size = 24
+Avg Prey Found = 0
+Avg Pred Found = 10
+Trial No. = 18
+['Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success']
+Total Number of Steps
+[51, 106, 76, 47, 46, 1, 16, 42, 46, 26, 13, 60, 27, 31, 30, 6, 36, 5, 4, 4, 4, 13, 23, 68, 14, 24, 28, 52, 2, 16, 8, 1, 20, 12, 32, 12, 54, 2, 146, 10, 6, 1, 19, 32, 36, 24, 45, 45, 8, 53, 2, 74, 1, 11, 22, 20, 47, 2, 29, 26, 84, 18, 8, 28, 47, 55, 78, 13, 24, 1, 13, 34, 1, 63, 10, 26, 20, 70, 49, 3, 6, 63, 46, 6, 28, 42, 8, 27, 73, 44, 23, 52, 7, 9, 36, 41, 19, 8, 2, 54]
+Total number of times prey was found
+[0, 1, 0, 3, 0, 0, 0, 0, 3, 0, 0, 3, 0, 0, 0, 0, 0, 1, 0, 1, 0, 3, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 5, 0, 1, 0, 0, 0, 2, 0, 0, 1, 1, 0, 0, 2, 0, 2, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 3, 1, 0, 2, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 1, 1, 0, 0, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 1]
+Total number of times predator was found
+[17, 45, 28, 19, 19, 0, 2, 14, 13, 10, 1, 28, 3, 9, 21, 2, 16, 2, 1, 1, 1, 7, 16, 34, 4, 16, 5, 19, 0, 4, 5, 0, 12, 0, 3, 0, 12, 1, 67, 1, 4, 0, 8, 21, 2, 13, 31, 17, 5, 19, 0, 22, 0, 5, 13, 12, 24, 0, 9, 13, 38, 5, 7, 18, 14, 22, 12, 6, 7, 0, 6, 3, 0, 29, 7, 18, 15, 24, 15, 1, 0, 32, 26, 2, 14, 20, 4, 5, 41, 6, 2, 24, 4, 2, 16, 11, 4, 0, 1, 23]
+Success Rate = 71
+Hanged Rate = 0
+Step size = 29
+Avg Prey Found = 0
+Avg Pred Found = 11
+Trial No. = 19
+['Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed']
+Total Number of Steps
+[10, 2, 55, 55, 40, 45, 42, 13, 46, 29, 27, 15, 15, 19, 15, 18, 6, 39, 30, 35, 2, 18, 57, 62, 26, 20, 49, 16, 33, 6, 22, 26, 44, 42, 36, 96, 2, 51, 27, 29, 17, 39, 39, 23, 42, 30, 3, 13, 19, 62, 4, 19, 47, 11, 38, 48, 8, 32, 27, 26, 39, 26, 45, 24, 23, 8, 42, 42, 2, 76, 6, 20, 9, 54, 9, 1, 20, 6, 35, 22, 27, 33, 36, 14, 9, 45, 15, 25, 57, 5, 36, 55, 5, 22, 84, 35, 3, 5, 50, 37]
+Total number of times prey was found
+[0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 2, 0, 1, 1, 0, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 3, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0, 2, 0, 1, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 1, 1, 0, 0, 2, 1]
+Total number of times predator was found
+[5, 0, 14, 7, 14, 5, 12, 6, 13, 12, 18, 2, 12, 11, 5, 11, 4, 20, 4, 18, 1, 12, 31, 19, 8, 6, 14, 4, 11, 2, 11, 14, 14, 1, 19, 46, 1, 29, 11, 12, 7, 21, 10, 14, 21, 15, 2, 8, 12, 17, 3, 5, 15, 0, 18, 14, 0, 22, 3, 12, 17, 13, 19, 11, 8, 3, 22, 18, 1, 32, 3, 14, 5, 34, 4, 0, 10, 3, 18, 13, 7, 7, 9, 2, 1, 12, 8, 16, 30, 1, 10, 22, 3, 13, 35, 11, 2, 1, 20, 17]
 Success Rate = 76
-Hanged Rate = 1
-Step size = 27
+Hanged Rate = 0
+Step size = 28
+Avg Prey Found = 0
+Avg Pred Found = 11
+Trial No. = 20
+['Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success']
+Total Number of Steps
+[29, 73, 30, 15, 1, 5, 7, 8, 4, 13, 23, 2, 42, 12, 10, 13, 3, 15, 38, 31, 29, 25, 2, 20, 23, 64, 36, 23, 28, 20, 9, 20, 12, 4, 30, 18, 9, 16, 21, 14, 25, 12, 56, 2, 18, 40, 63, 41, 29, 7, 91, 70, 6, 12, 68, 86, 8, 38, 3, 29, 13, 38, 42, 13, 19, 20, 12, 18, 2, 2, 71, 12, 19, 6, 21, 2, 80, 22, 24, 49, 67, 39, 44, 47, 7, 15, 14, 5, 36, 10, 31, 89, 5, 2, 29, 18, 12, 16, 19, 66]
+Total number of times prey was found
+[1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 0, 3, 0, 0, 0, 4, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 5, 0, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 3, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 5, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 3]
+Total number of times predator was found
+[9, 28, 9, 11, 0, 4, 2, 3, 2, 2, 4, 1, 2, 4, 6, 8, 2, 5, 22, 22, 6, 9, 1, 3, 4, 22, 17, 1, 17, 9, 4, 11, 10, 0, 17, 10, 3, 10, 3, 3, 3, 6, 20, 0, 5, 9, 19, 13, 8, 1, 33, 30, 5, 5, 11, 44, 3, 5, 2, 0, 7, 14, 8, 6, 6, 13, 6, 5, 0, 1, 31, 3, 1, 0, 14, 0, 23, 4, 8, 18, 19, 16, 11, 23, 3, 7, 0, 2, 9, 1, 11, 27, 0, 0, 19, 1, 5, 4, 9, 42]
+Success Rate = 77
+Hanged Rate = 0
+Step size = 25
+Avg Prey Found = 0
+Avg Pred Found = 9
+Trial No. = 21
+['Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success']
+Total Number of Steps
+[34, 39, 7, 33, 47, 2, 51, 79, 48, 6, 19, 36, 23, 48, 15, 19, 23, 59, 42, 23, 23, 17, 67, 2, 14, 43, 9, 4, 16, 104, 39, 15, 23, 57, 11, 30, 2, 60, 57, 16, 22, 12, 3, 51, 19, 23, 8, 29, 32, 18, 10, 28, 19, 6, 34, 49, 18, 73, 10, 3, 10, 32, 22, 59, 17, 63, 8, 17, 33, 44, 2, 11, 40, 9, 3, 13, 50, 23, 25, 10, 52, 73, 54, 74, 50, 14, 16, 12, 43, 44, 76, 41, 13, 72, 19, 38, 24, 8, 12, 5]
+Total number of times prey was found
+[0, 0, 0, 0, 3, 0, 1, 2, 0, 3, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 2, 0, 0, 1, 0, 0, 0, 3, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 2, 0, 1, 0, 0, 0, 1, 0, 0, 2, 2, 0, 0, 4, 0, 1, 0, 0, 0, 3, 0, 1, 0, 0, 0, 0, 2, 0, 3, 0, 0, 0, 1, 0, 0, 0, 0]
+Total number of times predator was found
+[7, 15, 5, 13, 14, 0, 30, 37, 0, 2, 13, 22, 2, 25, 6, 7, 6, 18, 24, 15, 5, 5, 37, 1, 2, 15, 1, 1, 14, 63, 14, 7, 10, 24, 5, 17, 0, 23, 13, 11, 14, 4, 2, 20, 13, 8, 0, 0, 6, 10, 4, 20, 3, 1, 1, 17, 8, 43, 7, 1, 6, 11, 10, 24, 12, 29, 3, 10, 15, 18, 1, 2, 13, 7, 2, 1, 20, 10, 20, 7, 26, 40, 12, 49, 17, 7, 8, 2, 13, 21, 49, 21, 7, 21, 9, 8, 14, 3, 6, 4]
+Success Rate = 75
+Hanged Rate = 0
+Step size = 29
+Avg Prey Found = 0
+Avg Pred Found = 12
+Trial No. = 22
+['Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success']
+Total Number of Steps
+[13, 14, 55, 33, 8, 15, 13, 63, 12, 14, 20, 17, 15, 12, 66, 5, 26, 22, 54, 3, 56, 42, 60, 16, 43, 19, 34, 45, 15, 62, 15, 71, 69, 22, 10, 16, 22, 46, 14, 33, 23, 19, 41, 1, 13, 36, 21, 30, 99, 10, 12, 33, 42, 22, 18, 14, 41, 9, 17, 46, 47, 99, 18, 22, 69, 9, 18, 45, 98, 5, 1, 85, 5, 9, 17, 12, 41, 3, 12, 27, 8, 12, 35, 21, 5, 16, 34, 58, 28, 45, 22, 70, 30, 17, 43, 23, 68, 5, 11, 22]
+Total number of times prey was found
+[0, 1, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 1, 0, 3, 0, 1, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 2, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 1, 0, 1, 0, 5, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 5, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 3, 0, 0, 2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+Total number of times predator was found
+[0, 7, 16, 12, 6, 6, 2, 23, 8, 8, 14, 6, 7, 2, 30, 2, 11, 13, 2, 0, 21, 10, 15, 6, 12, 10, 5, 19, 12, 38, 1, 50, 23, 4, 3, 0, 9, 13, 8, 25, 11, 11, 28, 0, 7, 10, 10, 7, 34, 4, 5, 12, 23, 9, 6, 8, 25, 4, 4, 24, 28, 39, 10, 16, 36, 3, 13, 10, 41, 4, 0, 52, 1, 4, 3, 7, 15, 1, 10, 8, 4, 8, 12, 10, 4, 13, 11, 30, 8, 18, 7, 29, 5, 8, 12, 1, 30, 1, 2, 11]
+Success Rate = 80
+Hanged Rate = 0
+Step size = 29
+Avg Prey Found = 0
+Avg Pred Found = 12
+Trial No. = 23
+['Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed']
+Total Number of Steps
+[2, 1, 19, 32, 6, 66, 29, 29, 28, 29, 39, 1, 62, 10, 43, 12, 13, 19, 48, 2, 10, 33, 3, 15, 21, 30, 1, 11, 2, 32, 21, 76, 12, 45, 23, 3, 21, 31, 14, 48, 21, 5, 26, 36, 54, 14, 6, 26, 5, 47, 45, 48, 8, 2, 31, 27, 29, 17, 21, 23, 20, 79, 64, 71, 24, 67, 80, 40, 4, 12, 34, 11, 21, 18, 42, 12, 35, 20, 7, 34, 26, 20, 29, 73, 10, 4, 10, 9, 14, 2, 17, 39, 5, 23, 27, 4, 36, 62, 33, 15]
+Total number of times prey was found
+[0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 2, 1, 0, 1, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 0, 2, 1, 0, 1, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0]
+Total number of times predator was found
+[0, 0, 4, 9, 4, 43, 16, 14, 5, 13, 11, 0, 25, 6, 14, 4, 0, 14, 23, 1, 7, 16, 1, 4, 4, 13, 0, 4, 1, 8, 6, 38, 1, 19, 14, 0, 4, 6, 4, 12, 11, 1, 13, 21, 19, 6, 1, 3, 3, 24, 18, 16, 4, 0, 9, 0, 12, 4, 10, 13, 7, 16, 10, 21, 11, 21, 43, 9, 2, 5, 12, 4, 6, 7, 20, 8, 19, 10, 2, 2, 2, 10, 15, 32, 1, 2, 6, 1, 6, 1, 4, 12, 3, 1, 9, 1, 20, 26, 14, 6]
+Success Rate = 77
+Hanged Rate = 0
+Step size = 25
+Avg Prey Found = 0
+Avg Pred Found = 9
+Trial No. = 24
+['Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success']
+Total Number of Steps
+[62, 6, 65, 26, 8, 22, 52, 38, 36, 1, 10, 20, 7, 29, 19, 68, 17, 13, 5, 1, 9, 7, 5, 34, 48, 21, 17, 105, 69, 52, 3, 16, 2, 27, 14, 1, 19, 5, 43, 29, 20, 27, 12, 4, 2, 9, 54, 42, 29, 32, 33, 27, 32, 25, 28, 21, 24, 9, 40, 22, 73, 38, 34, 38, 25, 4, 57, 24, 61, 25, 6, 18, 23, 24, 76, 2, 29, 33, 64, 23, 26, 56, 58, 10, 13, 11, 32, 34, 47, 52, 44, 10, 37, 45, 49, 45, 36, 16, 10, 41]
+Total number of times prey was found
+[1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 2, 0, 0, 0, 1, 3, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 3, 0, 2, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+Total number of times predator was found
+[28, 2, 27, 11, 3, 6, 14, 16, 19, 0, 5, 6, 3, 6, 5, 22, 3, 7, 3, 0, 7, 4, 1, 23, 19, 2, 0, 46, 30, 12, 1, 10, 1, 4, 7, 0, 0, 4, 13, 20, 15, 7, 9, 3, 0, 4, 21, 21, 10, 2, 20, 17, 8, 11, 9, 9, 8, 3, 9, 11, 33, 7, 13, 19, 7, 1, 35, 7, 21, 15, 3, 1, 9, 1, 29, 1, 11, 13, 28, 1, 2, 29, 22, 3, 7, 3, 19, 14, 23, 8, 18, 4, 7, 25, 12, 11, 1, 11, 6, 19]
+Success Rate = 67
+Hanged Rate = 0
+Step size = 28
 Avg Prey Found = 0
 Avg Pred Found = 10
 Trial No. = 25
-['Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Hanged', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success']
+['Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success']
 Total Number of Steps
-[6, 1, 5, 14, 44, 6, 16, 24, 13, 6, 43, 4, 4, 52, 11, 1, 8, 9, 7, 43, 14, 11, 7, 5, 18, 36, 3, 72, 1, 15, 20, 53, 7, 101, 22, 1, 7, 31, 42, 10, 18, 15, 16, 15, 8, 33, 4, 29, 4, 27, 47, 43, 8, 33, 27, 45, 2, 4, 12, 10, 11, 2, 16, 58, 33, 48, 20, 16, 33, 8, 94, 67, 12, 8, 63, 52, 47, 8, 4, 6, 4, 20, 66, 53, 1, 3, 23, 17, 17, 12, 10, 31, 54, 41, 24, 9, 10, 28, 19, 57]
+[13, 44, 15, 33, 39, 73, 42, 36, 4, 2, 19, 52, 38, 5, 15, 58, 11, 70, 13, 23, 42, 10, 32, 12, 9, 6, 47, 26, 16, 4, 34, 31, 27, 5, 24, 9, 19, 5, 3, 1, 33, 9, 39, 12, 90, 83, 30, 22, 11, 33, 72, 41, 32, 17, 14, 29, 3, 15, 64, 25, 23, 2, 18, 31, 33, 27, 14, 8, 29, 34, 31, 21, 28, 46, 95, 36, 41, 22, 40, 2, 23, 112, 15, 35, 42, 33, 25, 17, 19, 2, 27, 27, 136, 4, 12, 1, 22, 14, 29, 10]
 Total number of times prey was found
-[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 4, 0, 1, 0, 0, 0, 0, 2, 0, 0, 2, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 3, 0, 0, 0, 0, 2, 3, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0]
+[0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 2, 0, 3, 0, 0, 0, 0, 5, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0, 5, 0, 0, 1]
 Total number of times predator was found
-[1, 0, 3, 10, 26, 3, 9, 7, 7, 2, 6, 0, 1, 27, 6, 0, 4, 2, 5, 15, 3, 1, 4, 3, 7, 18, 1, 20, 0, 4, 2, 19, 2, 55, 14, 0, 2, 11, 17, 4, 2, 9, 4, 9, 3, 10, 2, 14, 3, 5, 21, 14, 2, 21, 4, 19, 1, 3, 5, 6, 6, 1, 9, 26, 15, 31, 13, 10, 4, 2, 47, 27, 8, 3, 40, 23, 26, 1, 3, 3, 3, 2, 28, 10, 0, 2, 6, 3, 7, 7, 5, 12, 23, 6, 3, 4, 4, 12, 11, 17]
-Success Rate = 78
-Hanged Rate = 1
-Step size = 22
+[3, 8, 3, 15, 7, 26, 15, 6, 1, 0, 5, 7, 21, 3, 6, 14, 4, 18, 3, 16, 21, 0, 19, 4, 3, 3, 25, 11, 5, 2, 13, 21, 10, 4, 3, 3, 11, 2, 1, 0, 12, 3, 9, 1, 35, 27, 9, 4, 4, 23, 29, 16, 11, 6, 6, 4, 1, 10, 10, 0, 7, 1, 12, 0, 11, 17, 3, 3, 10, 2, 5, 8, 10, 6, 52, 7, 30, 13, 12, 1, 3, 28, 4, 20, 6, 17, 11, 11, 2, 1, 9, 4, 44, 1, 6, 0, 9, 3, 13, 6]
+Success Rate = 76
+Hanged Rate = 0
+Step size = 28
 Avg Prey Found = 0
 Avg Pred Found = 9
 Trial No. = 26
-['Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Success']
+['Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success']
 Total Number of Steps
-[18, 33, 20, 16, 11, 13, 4, 3, 42, 25, 43, 53, 38, 9, 22, 62, 17, 13, 41, 28, 6, 41, 12, 12, 42, 7, 35, 18, 4, 5, 2, 19, 29, 32, 8, 4, 7, 16, 11, 32, 24, 8, 8, 18, 1, 50, 52, 32, 14, 20, 3, 65, 59, 4, 28, 26, 1, 18, 5, 63, 18, 34, 21, 21, 25, 27, 2, 26, 26, 2, 27, 24, 16, 11, 43, 2, 15, 10, 30, 31, 3, 39, 29, 24, 35, 10, 4, 50, 8, 26, 57, 6, 73, 3, 21, 94, 5, 11, 14, 12]
+[30, 38, 3, 4, 19, 34, 4, 9, 4, 66, 15, 7, 29, 23, 3, 10, 3, 16, 58, 50, 53, 9, 68, 10, 37, 6, 10, 30, 10, 37, 4, 20, 1, 15, 31, 7, 13, 58, 26, 7, 18, 33, 18, 34, 28, 8, 20, 24, 2, 17, 22, 4, 25, 17, 4, 11, 21, 25, 74, 30, 66, 25, 22, 54, 36, 12, 15, 3, 19, 4, 18, 55, 31, 62, 2, 20, 25, 49, 15, 3, 7, 10, 47, 48, 1, 30, 7, 72, 10, 31, 3, 3, 64, 30, 3, 8, 20, 39, 19, 86]
 Total number of times prey was found
-[0, 0, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 3, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 3, 0, 0, 0, 0, 3, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 6, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3]
 Total number of times predator was found
-[4, 15, 8, 11, 3, 6, 2, 2, 21, 13, 21, 35, 20, 2, 4, 19, 1, 8, 17, 17, 0, 31, 6, 4, 20, 3, 17, 3, 2, 4, 0, 5, 16, 8, 4, 1, 0, 1, 7, 15, 6, 4, 4, 7, 0, 21, 17, 12, 10, 9, 1, 31, 28, 3, 16, 7, 0, 11, 3, 33, 8, 5, 12, 6, 9, 13, 1, 9, 18, 0, 3, 11, 5, 5, 8, 0, 8, 1, 11, 15, 2, 10, 3, 10, 21, 2, 3, 8, 6, 16, 28, 4, 46, 2, 13, 41, 0, 1, 3, 7]
-Success Rate = 55
+[12, 11, 2, 2, 1, 4, 0, 3, 2, 27, 4, 2, 8, 8, 0, 1, 2, 4, 16, 25, 16, 2, 29, 6, 11, 4, 4, 4, 4, 9, 1, 13, 0, 8, 15, 0, 1, 39, 11, 1, 2, 12, 9, 18, 10, 1, 9, 3, 1, 1, 8, 1, 10, 3, 2, 0, 7, 16, 28, 7, 16, 16, 7, 28, 9, 5, 1, 1, 0, 3, 12, 33, 15, 20, 0, 13, 16, 14, 3, 1, 0, 6, 12, 21, 0, 5, 6, 19, 3, 14, 1, 1, 32, 8, 0, 2, 3, 10, 0, 19]
+Success Rate = 70
 Hanged Rate = 0
-Step size = 22
+Step size = 23
 Avg Prey Found = 0
-Avg Pred Found = 9
+Avg Pred Found = 8
 Trial No. = 27
-['Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Hanged', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success']
+['Failed', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed']
 Total Number of Steps
-[8, 1, 3, 26, 14, 4, 25, 17, 25, 101, 6, 72, 10, 65, 61, 6, 37, 15, 22, 10, 43, 8, 99, 32, 6, 7, 7, 10, 8, 16, 15, 8, 16, 24, 33, 24, 28, 33, 5, 32, 6, 53, 12, 31, 6, 45, 34, 38, 8, 3, 6, 42, 28, 23, 101, 25, 8, 18, 22, 2, 29, 60, 48, 3, 2, 30, 14, 47, 6, 19, 34, 23, 48, 23, 20, 25, 22, 40, 21, 44, 21, 19, 10, 8, 47, 13, 10, 48, 3, 22, 24, 40, 38, 7, 28, 14, 25, 14, 17, 2]
+[106, 4, 26, 11, 41, 53, 10, 3, 92, 36, 40, 31, 28, 44, 1, 3, 22, 7, 11, 25, 22, 10, 24, 15, 34, 40, 37, 14, 7, 15, 63, 23, 33, 52, 10, 12, 33, 12, 21, 11, 32, 31, 27, 34, 28, 53, 7, 18, 36, 86, 9, 12, 18, 91, 4, 24, 8, 124, 13, 34, 20, 3, 29, 63, 25, 7, 4, 31, 49, 6, 8, 34, 15, 8, 4, 25, 57, 21, 77, 29, 13, 11, 1, 33, 5, 16, 57, 76, 25, 5, 20, 13, 44, 114, 5, 16, 24, 47, 8, 28]
 Total number of times prey was found
-[0, 0, 0, 3, 0, 0, 0, 0, 0, 2, 0, 0, 0, 4, 4, 0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 3, 0, 0, 1, 0, 4, 1, 1, 0, 3, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 5, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 3, 0, 2, 1, 0, 2, 1, 0, 0, 0, 1, 0, 4, 0, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 2, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 1, 1, 0, 4, 1, 0, 1]
 Total number of times predator was found
-[5, 0, 2, 4, 1, 3, 7, 8, 4, 31, 2, 16, 2, 27, 15, 0, 4, 11, 0, 4, 5, 3, 30, 15, 3, 5, 0, 6, 6, 12, 3, 6, 13, 14, 5, 14, 13, 11, 2, 14, 2, 18, 9, 16, 3, 17, 7, 18, 7, 1, 1, 26, 12, 10, 32, 7, 4, 11, 10, 0, 9, 41, 18, 2, 1, 17, 0, 15, 1, 8, 24, 15, 10, 1, 13, 1, 12, 17, 9, 11, 2, 12, 2, 1, 24, 0, 5, 18, 1, 7, 5, 16, 22, 2, 13, 4, 14, 7, 12, 0]
-Success Rate = 71
-Hanged Rate = 1
-Step size = 24
+[46, 1, 4, 9, 17, 8, 8, 0, 32, 11, 22, 11, 16, 6, 0, 2, 9, 2, 7, 7, 6, 5, 15, 13, 10, 23, 22, 8, 4, 9, 15, 1, 11, 16, 3, 11, 13, 5, 2, 2, 11, 11, 6, 3, 18, 19, 1, 8, 17, 16, 6, 4, 9, 56, 2, 2, 3, 54, 6, 14, 0, 1, 14, 20, 6, 1, 2, 18, 27, 4, 4, 10, 7, 1, 1, 11, 23, 17, 28, 16, 5, 6, 0, 18, 0, 9, 22, 27, 11, 1, 4, 9, 24, 61, 0, 8, 13, 12, 3, 11]
+Success Rate = 67
+Hanged Rate = 0
+Step size = 28
 Avg Prey Found = 0
-Avg Pred Found = 9
+Avg Pred Found = 11
 Trial No. = 28
-['Failed', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Hanged', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Hanged', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success']
+['Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success']
 Total Number of Steps
-[64, 50, 12, 6, 38, 83, 3, 11, 29, 18, 41, 76, 7, 40, 1, 32, 17, 8, 33, 3, 23, 17, 17, 21, 33, 13, 2, 2, 45, 4, 1, 3, 29, 24, 46, 51, 14, 11, 2, 4, 18, 13, 26, 30, 9, 34, 16, 29, 26, 1, 19, 101, 4, 25, 1, 19, 2, 2, 44, 12, 101, 22, 16, 38, 2, 11, 26, 17, 3, 12, 18, 11, 17, 22, 3, 18, 49, 58, 37, 7, 1, 11, 15, 4, 27, 62, 8, 18, 14, 25, 17, 17, 11, 18, 7, 45, 52, 42, 17, 30]
+[13, 8, 35, 35, 17, 25, 9, 16, 45, 21, 46, 6, 18, 24, 20, 35, 2, 8, 44, 17, 14, 11, 3, 29, 34, 41, 99, 24, 32, 76, 5, 19, 1, 20, 38, 11, 3, 13, 40, 14, 28, 22, 29, 22, 21, 52, 87, 2, 1, 4, 33, 16, 23, 6, 46, 22, 37, 11, 19, 20, 15, 9, 16, 81, 5, 13, 20, 3, 34, 3, 2, 16, 13, 30, 32, 15, 17, 13, 49, 43, 14, 50, 2, 17, 1, 60, 7, 12, 6, 13, 22, 15, 11, 18, 37, 53, 9, 4, 2, 14]
 Total number of times prey was found
-[2, 0, 2, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2]
+[0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 2, 0, 0, 0, 0, 2, 3, 0, 1, 7, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 3, 0, 0, 0, 0, 0]
 Total number of times predator was found
-[27, 9, 6, 2, 6, 28, 0, 4, 14, 3, 24, 22, 3, 19, 0, 20, 13, 2, 6, 2, 8, 9, 3, 10, 11, 5, 0, 1, 27, 3, 0, 2, 2, 4, 20, 18, 9, 1, 1, 0, 2, 8, 18, 9, 3, 12, 1, 8, 16, 0, 5, 61, 3, 3, 0, 10, 0, 0, 20, 9, 43, 5, 9, 12, 0, 2, 10, 4, 1, 4, 12, 4, 9, 12, 1, 3, 17, 30, 22, 4, 0, 3, 0, 3, 12, 12, 1, 9, 6, 4, 13, 14, 5, 1, 0, 17, 13, 13, 9, 13]
-Success Rate = 74
-Hanged Rate = 2
+[7, 3, 23, 12, 1, 10, 4, 10, 20, 16, 14, 3, 1, 6, 5, 13, 0, 5, 31, 7, 0, 4, 1, 8, 13, 15, 54, 7, 14, 27, 3, 8, 0, 8, 7, 3, 1, 6, 18, 0, 7, 5, 13, 15, 11, 24, 28, 0, 0, 0, 7, 9, 13, 3, 9, 5, 15, 2, 7, 3, 10, 4, 7, 41, 4, 3, 4, 0, 12, 1, 0, 5, 9, 11, 0, 1, 12, 6, 3, 14, 0, 12, 1, 4, 0, 26, 4, 7, 4, 1, 9, 1, 6, 9, 11, 19, 5, 1, 1, 3]
+Success Rate = 70
+Hanged Rate = 0
 Step size = 22
 Avg Prey Found = 0
 Avg Pred Found = 8
 Trial No. = 29
-['Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed']
+['Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success']
 Total Number of Steps
-[7, 24, 11, 1, 30, 3, 3, 10, 7, 18, 38, 37, 11, 16, 34, 20, 46, 40, 9, 9, 33, 90, 46, 1, 22, 21, 17, 36, 10, 7, 14, 9, 13, 19, 38, 24, 15, 10, 29, 16, 67, 4, 8, 10, 1, 31, 5, 30, 1, 7, 26, 11, 14, 5, 32, 18, 10, 21, 61, 8, 3, 2, 78, 63, 98, 65, 18, 12, 15, 3, 47, 10, 38, 22, 26, 40, 19, 53, 68, 34, 16, 24, 50, 24, 5, 7, 25, 45, 89, 7, 13, 3, 4, 16, 83, 16, 55, 3, 25, 21]
+[53, 16, 63, 6, 6, 12, 3, 55, 20, 21, 3, 5, 20, 2, 40, 6, 25, 38, 13, 74, 13, 8, 12, 27, 10, 4, 12, 29, 14, 24, 29, 27, 32, 10, 25, 28, 7, 31, 39, 14, 28, 35, 65, 19, 3, 29, 7, 22, 56, 35, 31, 39, 21, 25, 10, 50, 23, 21, 38, 59, 33, 29, 13, 7, 18, 31, 2, 29, 22, 57, 19, 29, 15, 30, 26, 20, 35, 81, 10, 54, 2, 16, 10, 12, 39, 67, 37, 41, 29, 9, 11, 53, 34, 29, 37, 2, 4, 11, 34, 41]
 Total number of times prey was found
-[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 1, 2, 0, 3, 1, 0, 2, 0, 0, 1, 0, 0, 1, 0, 2, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 0, 0, 1]
+[0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1]
 Total number of times predator was found
-[2, 12, 9, 0, 16, 0, 0, 0, 4, 7, 8, 19, 4, 7, 14, 4, 13, 16, 2, 2, 19, 34, 14, 0, 10, 5, 4, 17, 2, 5, 0, 2, 5, 1, 23, 15, 9, 3, 7, 0, 26, 1, 0, 0, 0, 3, 2, 17, 0, 2, 7, 3, 11, 3, 10, 9, 6, 7, 29, 5, 0, 1, 20, 20, 56, 39, 12, 3, 1, 1, 16, 4, 23, 14, 14, 21, 11, 27, 30, 11, 14, 11, 25, 5, 1, 3, 9, 22, 24, 0, 5, 2, 1, 14, 32, 7, 20, 0, 2, 3]
-Success Rate = 77
+[35, 3, 14, 3, 1, 4, 1, 24, 8, 10, 0, 3, 13, 1, 22, 2, 15, 12, 3, 34, 8, 2, 3, 8, 4, 0, 9, 22, 5, 4, 18, 10, 11, 6, 10, 0, 2, 10, 6, 1, 3, 4, 16, 7, 0, 10, 3, 10, 10, 13, 5, 18, 6, 11, 6, 18, 12, 13, 16, 24, 18, 15, 6, 3, 11, 14, 0, 9, 11, 24, 3, 1, 2, 13, 15, 14, 9, 36, 5, 24, 0, 8, 0, 7, 13, 43, 18, 14, 18, 2, 4, 20, 10, 9, 17, 0, 2, 6, 19, 16]
+Success Rate = 56
 Hanged Rate = 0
-Step size = 24
+Step size = 25
 Avg Prey Found = 0
-Avg Pred Found = 9
+Avg Pred Found = 10
 Trial No. = 30
-['Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success']
+['Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Failed', 'Success', 'Failed', 'Failed', 'Failed', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success']
 Total Number of Steps
-[2, 25, 2, 37, 23, 42, 25, 30, 15, 11, 94, 16, 27, 1, 20, 9, 49, 15, 38, 16, 18, 22, 9, 11, 61, 17, 51, 6, 6, 14, 21, 18, 4, 7, 33, 4, 17, 54, 77, 15, 64, 9, 44, 43, 40, 23, 59, 32, 24, 5, 16, 28, 49, 9, 78, 58, 85, 40, 35, 33, 14, 30, 13, 38, 37, 41, 30, 42, 52, 21, 28, 44, 9, 19, 16, 11, 24, 31, 30, 53, 14, 17, 43, 24, 23, 25, 19, 11, 17, 36, 24, 54, 4, 27, 77, 19, 11, 1, 55, 11]
+[58, 7, 86, 47, 24, 11, 25, 46, 5, 7, 8, 57, 114, 23, 9, 38, 38, 8, 21, 7, 60, 15, 6, 27, 72, 53, 27, 39, 81, 14, 30, 1, 8, 39, 28, 33, 7, 23, 26, 7, 7, 25, 39, 22, 35, 39, 15, 48, 11, 26, 4, 37, 2, 4, 4, 7, 45, 21, 7, 42, 22, 22, 1, 7, 18, 6, 8, 30, 21, 36, 92, 21, 35, 39, 25, 9, 49, 17, 48, 9, 83, 6, 49, 22, 28, 20, 35, 2, 22, 6, 15, 39, 48, 19, 2, 3, 22, 8, 15, 25]
 Total number of times prey was found
-[0, 0, 0, 4, 1, 2, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0, 0, 3, 0, 0, 2, 6, 0, 0, 0, 1, 2, 2, 0, 0, 2, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 6, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0]
+[2, 0, 4, 0, 2, 1, 0, 0, 0, 0, 1, 0, 3, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 2, 0, 0, 1, 3, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 1, 2, 3, 0, 0, 5, 0, 0, 0, 0, 2, 0, 2, 0, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 1, 0, 0]
 Total number of times predator was found
-[1, 15, 0, 10, 6, 22, 13, 5, 9, 5, 31, 0, 6, 0, 6, 5, 27, 1, 17, 6, 9, 2, 4, 8, 36, 8, 24, 2, 2, 8, 4, 11, 2, 3, 6, 0, 0, 20, 29, 2, 9, 5, 12, 13, 21, 13, 26, 19, 15, 0, 9, 13, 26, 4, 11, 20, 40, 6, 9, 13, 11, 10, 3, 17, 11, 20, 17, 28, 14, 9, 5, 3, 5, 6, 0, 8, 6, 9, 9, 22, 8, 4, 17, 9, 1, 6, 1, 5, 9, 21, 9, 25, 0, 4, 41, 4, 5, 0, 28, 3]
-Success Rate = 77
+[28, 0, 38, 18, 5, 6, 4, 27, 4, 3, 6, 24, 34, 8, 3, 18, 8, 2, 5, 1, 39, 8, 5, 8, 25, 26, 10, 8, 55, 7, 16, 0, 3, 3, 13, 18, 3, 4, 12, 2, 4, 14, 7, 9, 16, 16, 4, 26, 10, 20, 1, 9, 0, 2, 2, 3, 15, 12, 2, 10, 12, 11, 0, 3, 1, 2, 4, 16, 9, 16, 41, 10, 10, 14, 6, 7, 20, 4, 16, 6, 37, 2, 16, 4, 3, 3, 10, 0, 8, 0, 8, 24, 18, 15, 1, 1, 4, 0, 4, 12]
+Success Rate = 73
 Hanged Rate = 0
-Step size = 28
+Step size = 26
 Avg Prey Found = 0
 Avg Pred Found = 10
 
+Total Success Rates = 2174
+
 Average Results
-Average Success Rates = 71
-Average Hanged Rates = 1.0333333333333334
-Average Step Size = 24
+Average Success Rates = 72
+Average Hanged Rates = 0.0
+Average Step Size = 26
 Average Prey Found = 0.0
 Average Predator Found = 9

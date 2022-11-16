@@ -15,7 +15,7 @@ def agent2(graph):
         agent_location = random.choice(range(1,50))
     steps = 0
     overlap_edge = set()
-    while steps <= 100:
+    while steps <= 5000:
         steps = steps + 1
         curr_distance_agent_prey = len(find_path.bfs(graph,agent_location,prey_location))
         curr_distance_agent_predator = len(find_path.bfs(graph,agent_location,predator_location))
@@ -139,7 +139,10 @@ if __name__ == "__main__":
             success_rates = success_rates + output.count("Success")
             hanged = hanged + output.count("Hanged")
             avg_steps_size = sum(steps_size) // 100
+            total_avg_steps_size = total_avg_steps_size + avg_steps_size
     with open("./Results/output_agent2.txt","a") as o:
+        o.write("\n")
+        o.write("Total Success Rates = {}\n".format(success_rates))
         o.write("\n")
         o.write("Average Results\n")
         o.write("Average Success Rates = {}\n".format(success_rates // 30))

@@ -18,7 +18,7 @@ def agent7(graph):
     exact_prey_location_found = 0
     prey_prob = beliefSystem.prey_initialisation(graph,agent_location)
     pred_prob = beliefSystem.pred_initialisation(graph,predator_location)
-    while steps <= 1000:
+    while steps <= 5000:
         steps = steps + 1
         max_pred_prob = max(pred_prob[1:])
         max_prey_prob = max(prey_prob[1:])
@@ -209,6 +209,8 @@ if __name__ == "__main__":
             total_avg_prey_found = total_avg_prey_found + avg_prey_found
             total_avg_pred_found = total_avg_pred_found + avg_pred_found
     with open("./Results/output_agent7.txt","a") as o:
+        o.write("\n")
+        o.write("Total Success Rates = {}\n".format(success_rates))
         o.write("\n")
         o.write("Average Results\n")
         o.write("Average Success Rates = {}\n".format(success_rates // 30))
