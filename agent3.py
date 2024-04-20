@@ -16,7 +16,7 @@ def agent3(graph):
     steps = 0
     exact_prey_location_found = 0
     prey_prob = beliefSystem.prey_initialisation(graph,agent_location)
-    while steps <= 5000:
+    while steps <= 1:
         print("Prey" , prey_location)
         print("Predator", predator_location)
         print("Agent",agent_location)
@@ -131,46 +131,46 @@ def agent3(graph):
         
 
 if __name__ == "__main__":
-    # graph = environment.graph_setup()
-    # print(agent3(graph))
-    success_rates = 0 
-    hanged = 0 
-    total_avg_steps_size = 0 
-    total_avg_prey_found = 0
-    for i in range(1,31):
-        graph = environment.graph_setup()
-        output = []
-        steps_size = []
-        prey_found = []
-        for _ in range(0,100):
-            temp_out = agent3(graph) 
-            output.append(temp_out[0])
-            steps_size.append(temp_out[1])
-            prey_found.append(temp_out[2])
-        with open("./Results/output_agent3.txt","a") as o:
-            o.write("Trial No. = {}\n".format(i))
-            o.write("{}\n".format(output))
-            o.write("Total Number of Steps\n")
-            o.write("{}\n".format(steps_size))
-            o.write("Total number of times prey was found\n")
-            o.write("{}\n".format(prey_found))
-            o.write("Success Rate = {}\n".format(output.count("Success")))
-            o.write("Hanged Rate = {}\n".format(output.count("Hanged")))
-            success_rates = success_rates + output.count("Success")
-            hanged = hanged + output.count("Hanged")
-            avg_steps_size = sum(steps_size) // 100
-            avg_prey_found = sum(prey_found) // 100
-            o.write("Average step size = {}\n".format(avg_steps_size))
-            o.write("Avg Prey Found = {}\n".format(avg_prey_found))
-            total_avg_steps_size = total_avg_steps_size + avg_steps_size
-            total_avg_prey_found = total_avg_prey_found + avg_prey_found
-    with open("./Results/output_agent3.txt","a") as o:
-        o.write("\n")
-        o.write("Total Success Rates = {}\n".format(success_rates))
-        o.write("\n")
-        o.write("Average Results\n")
-        o.write("Average Success Rates = {}\n".format(success_rates // 30))
-        o.write("Average Hanged Rates = {}\n".format(hanged / 30))
-        o.write("Average Step Size = {}\n".format(total_avg_steps_size / 30))
-        o.write("Average Prey Found = {}\n".format(total_avg_prey_found / 30))
+    graph = environment.graph_setup()
+    print(agent3(graph))
+    # success_rates = 0 
+    # hanged = 0 
+    # total_avg_steps_size = 0 
+    # total_avg_prey_found = 0
+    # for i in range(1,31):
+    #     graph = environment.graph_setup()
+    #     output = []
+    #     steps_size = []
+    #     prey_found = []
+    #     for _ in range(0,100):
+    #         temp_out = agent3(graph) 
+    #         output.append(temp_out[0])
+    #         steps_size.append(temp_out[1])
+    #         prey_found.append(temp_out[2])
+    #     with open("./Results/output_agent3.txt","a") as o:
+    #         o.write("Trial No. = {}\n".format(i))
+    #         o.write("{}\n".format(output))
+    #         o.write("Total Number of Steps\n")
+    #         o.write("{}\n".format(steps_size))
+    #         o.write("Total number of times prey was found\n")
+    #         o.write("{}\n".format(prey_found))
+    #         o.write("Success Rate = {}\n".format(output.count("Success")))
+    #         o.write("Hanged Rate = {}\n".format(output.count("Hanged")))
+    #         success_rates = success_rates + output.count("Success")
+    #         hanged = hanged + output.count("Hanged")
+    #         avg_steps_size = sum(steps_size) // 100
+    #         avg_prey_found = sum(prey_found) // 100
+    #         o.write("Average step size = {}\n".format(avg_steps_size))
+    #         o.write("Avg Prey Found = {}\n".format(avg_prey_found))
+    #         total_avg_steps_size = total_avg_steps_size + avg_steps_size
+    #         total_avg_prey_found = total_avg_prey_found + avg_prey_found
+    # with open("./Results/output_agent3.txt","a") as o:
+    #     o.write("\n")
+    #     o.write("Total Success Rates = {}\n".format(success_rates))
+    #     o.write("\n")
+    #     o.write("Average Results\n")
+    #     o.write("Average Success Rates = {}\n".format(success_rates // 30))
+    #     o.write("Average Hanged Rates = {}\n".format(hanged / 30))
+    #     o.write("Average Step Size = {}\n".format(total_avg_steps_size / 30))
+    #     o.write("Average Prey Found = {}\n".format(total_avg_prey_found / 30))
 

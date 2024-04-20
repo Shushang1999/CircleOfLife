@@ -20,7 +20,7 @@ def agent2(graph):
         curr_distance_agent_prey = len(find_path.bfs(graph,agent_location,prey_location))
         curr_distance_agent_predator = len(find_path.bfs(graph,agent_location,predator_location))
         if curr_distance_agent_predator == 2:
-            overlap_edge = overlap.overlap_edge(graph)
+            overlap_edge = overlap.overlap_edge(graph)         # Checking for overlap edges
         agent_neighbor_dist = {}
         for neighbor in graph.neighbors(agent_location):
             dist = len(find_path.bfs(graph,neighbor,prey_location))
@@ -68,18 +68,34 @@ def agent2(graph):
                         possible_moves.append(neighbors)
                 temp_node = random.choice(possible_moves)
         else:
+            # Checking for neighbors according the preference mentioned in the report
             for n in agent_neighbor_dist:
                 if agent_neighbor_dist[n]["Prey_dist"] < curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator and n not in overlap_edge:
                     temp_node = n
                     break
             if temp_node == 100:
                 for n in agent_neighbor_dist:
-                    if agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator and n not in overlap_edge:
+                    if agent_neighbor_dist[n]["Prey_dist"] < curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator:
                         temp_node = n
-                        break 
+                        break
+            if temp_node == 100:
+                for n in agent_neighbor_dist:
+                    if agent_neighbor_dist[n]["Prey_dist"] <= curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator and n not in overlap_edge:
+                        temp_node = n
+                        break
+            if temp_node == 100:
+                for n in agent_neighbor_dist:
+                    if agent_neighbor_dist[n]["Prey_dist"] <= curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator:
+                        temp_node = n
+                        break
             if temp_node == 100:
                 for n in agent_neighbor_dist:
                     if agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator and n not in overlap_edge:
+                        temp_node = n
+                        break
+            if temp_node == 100:
+                for n in agent_neighbor_dist:
+                    if agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator:
                         temp_node = n
                         break 
             if temp_node == 100:

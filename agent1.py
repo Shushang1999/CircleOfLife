@@ -15,20 +15,22 @@ def agent1(graph):
     steps = 0
     while steps <= 5000:
         steps = steps + 1
-        # print("Prey" , prey_location)
-        # print("Predator", predator_location)
-        # print("Agent",agent_location)
         curr_distance_agent_prey = len(find_path.bfs(graph,agent_location,prey_location))
         curr_distance_agent_predator = len(find_path.bfs(graph,agent_location,predator_location))
-        # print("prey dist",curr_distance_agent_prey)
-        # print("predator dist",curr_distance_agent_predator)
         agent_neighbor_dist = {}
+        
+        # Calculating the distance of each neighbors of agent to the prey and predator
+
         for neighbor in graph.neighbors(agent_location):
             dist = len(find_path.bfs(graph,neighbor,prey_location))
             agent_neighbor_dist[neighbor] = {"Prey_dist":dist}
             dist = len(find_path.bfs(graph,neighbor,predator_location))
             agent_neighbor_dist[neighbor].update({"Predator_dist":dist})
-        # print(agent_neighbor_dist)
+
+        print(agent_neighbor_dist)
+
+        # Applying Agent 1 Rule Specified in the writeup
+
         temp_node = 100
         for n in agent_neighbor_dist:
             if agent_neighbor_dist[n]["Prey_dist"] < curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator:
@@ -61,42 +63,42 @@ def agent1(graph):
                     break 
         if temp_node == 100:
             temp_node = agent_location
+
         agent_location = temp_node
+
+        # Checking if agent died or agent caught prey
+
         if agent_location == prey_location and agent_location == predator_location:
             return("Failed",steps)
         elif agent_location == prey_location:
-            # print("Prey" , prey_location)
-            # print("Predator", predator_location)
-            # print("Agent",agent_location)
             return("Success",steps)
         elif agent_location == predator_location:
             return("Failed",steps)
+    
         prey_location = prey.move_prey(graph,prey_location)
+
+        # Checking if prey died
+
         if agent_location == prey_location and agent_location == predator_location:
             return("Failed",steps)
         elif agent_location == prey_location:
-            # print("Prey" , prey_location)
-            # print("Predator", predator_location)
-            # print("Agent",agent_location)
             return("Success",steps)
         elif agent_location == predator_location:
             return("Failed",steps)
+
         predator_location = predator.move_predator(graph,predator_location,agent_location)
+
+        # Checking if Predator caught agent or agent caught prey
+
         if agent_location == prey_location and agent_location == predator_location:
             return("Failed",steps)
         elif agent_location == prey_location:
-            # print("Prey" , prey_location)
-            # print("Predator", predator_location)
-            # print("Agent",agent_location)
             return("Success",steps)
         elif agent_location == predator_location:
             return("Failed",steps)
     
     return("Hanged",steps)
     
-    
-    # nx.draw(graph,with_labels = True,pos = nx.circular_layout(graph))
-    # plt.show()
 
 if __name__ == "__main__":
     success_rates = 0

@@ -41,9 +41,14 @@ def graph_setup():
     return G
 
 if __name__ == "__main__":
-    # for _ in range(0,100):
+    count = 0
+    for _ in range(0,1000000):
         G = graph_setup()
-        print(G.number_of_edges())
+        if G.number_of_edges() == 70:
+            count = count + 1
+    print(count)
+        # nx.draw(G,with_labels = True,pos = nx.circular_layout(G))
+        # plt.show()
         # print(type(nodes))
         # print(edge_count)
         # print(G.number_of_edges())

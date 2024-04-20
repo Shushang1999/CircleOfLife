@@ -185,3 +185,9 @@ Average Results
 Average Success Rates = 88
 Average Hanged Rates = 0
 Average Step Size = 10
+Trial No. = 1
+['Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Failed', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success', 'Success']
+Total Number of Steps
+[9, 20, 26, 3, 3, 10, 29, 11, 8, 23, 6, 6, 9, 25, 16, 25, 26, 11, 2, 5, 6, 12, 4, 11, 13, 6, 17, 20, 1, 11, 60, 8, 1, 21, 8, 17, 2, 26, 26, 12, 7, 21, 22, 13, 9, 35, 33, 12, 10, 5, 10, 17, 12, 6, 23, 7, 12, 2, 8, 4, 21, 22, 15, 11, 9, 17, 3, 18, 8, 5, 3, 26, 9, 26, 15, 10, 19, 21, 10, 7, 24, 2, 9, 4, 23, 7, 7, 17, 9, 7, 14, 11, 25, 17, 6, 26, 14, 7, 16, 4]
+Success Rate = 98
+Hanged Rate = 0

@@ -105,12 +105,27 @@ def agent4(graph):
                     break
             if temp_node == 100:
                 for n in agent_neighbor_dist:
+                    if agent_neighbor_dist[n]["Prey_dist"] < curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator:
+                        temp_node = n
+                        break
+            if temp_node == 100:
+                for n in agent_neighbor_dist:
                     if agent_neighbor_dist[n]["Prey_dist"] <= curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator and n not in overlap_edge:
                         temp_node = n
                         break
             if temp_node == 100:
                 for n in agent_neighbor_dist:
+                    if agent_neighbor_dist[n]["Prey_dist"] <= curr_distance_agent_prey and agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator:
+                        temp_node = n
+                        break
+            if temp_node == 100:
+                for n in agent_neighbor_dist:
                     if agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator and n not in overlap_edge:
+                        temp_node = n
+                        break
+            if temp_node == 100:
+                for n in agent_neighbor_dist:
+                    if agent_neighbor_dist[n]["Predator_dist"] > curr_distance_agent_predator:
                         temp_node = n
                         break
             if temp_node == 100:
